@@ -1,0 +1,21 @@
+body{
+    background-color: grey;
+}
+
+.bigBox1{
+    /* margin: 500px; */
+    display: flex;
+}
+
+.bigBox2{
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.smallBox{
+    background-color: white;
+    color: black;
+    justify-content: center;
+    height: 50px;
+}

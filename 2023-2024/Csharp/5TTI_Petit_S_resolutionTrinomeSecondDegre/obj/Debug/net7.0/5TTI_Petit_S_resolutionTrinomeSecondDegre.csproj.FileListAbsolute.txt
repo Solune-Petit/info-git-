@@ -1,0 +1,14 @@
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Petit_S_resolutionTrinomeSecondDegre\bin\Debug\net7.0\5TTI_Petit_S_resolutionTrinomeSecondDegre.exe
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Petit_S_resolutionTrinomeSecondDegre\bin\Debug\net7.0\5TTI_Petit_S_resolutionTrinomeSecondDegre.deps.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Petit_S_resolutionTrinomeSecondDegre\bin\Debug\net7.0\5TTI_Petit_S_resolutionTrinomeSecondDegre.runtimeconfig.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Petit_S_resolutionTrinomeSecondDegre\bin\Debug\net7.0\5TTI_Petit_S_resolutionTrinomeSecondDegre.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Petit_S_resolutionTrinomeSecondDegre\bin\Debug\net7.0\5TTI_Petit_S_resolutionTrinomeSecondDegre.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Petit_S_resolutionTrinomeSecondDegre\obj\Debug\net7.0\5TTI_Petit_S_resolutionTrinomeSecondDegre.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Petit_S_resolutionTrinomeSecondDegre\obj\Debug\net7.0\5TTI_Petit_S_resolutionTrinomeSecondDegre.AssemblyInfoInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Petit_S_resolutionTrinomeSecondDegre\obj\Debug\net7.0\5TTI_Petit_S_resolutionTrinomeSecondDegre.AssemblyInfo.cs
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Petit_S_resolutionTrinomeSecondDegre\obj\Debug\net7.0\5TTI_Petit_S_resolutionTrinomeSecondDegre.csproj.CoreCompileInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Petit_S_resolutionTrinomeSecondDegre\obj\Debug\net7.0\5TTI_Petit_S_resolutionTrinomeSecondDegre.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Petit_S_resolutionTrinomeSecondDegre\obj\Debug\net7.0\refint\5TTI_Petit_S_resolutionTrinomeSecondDegre.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Petit_S_resolutionTrinomeSecondDegre\obj\Debug\net7.0\5TTI_Petit_S_resolutionTrinomeSecondDegre.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Petit_S_resolutionTrinomeSecondDegre\obj\Debug\net7.0\5TTI_Petit_S_resolutionTrinomeSecondDegre.genruntimeconfig.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Petit_S_resolutionTrinomeSecondDegre\obj\Debug\net7.0\ref\5TTI_Petit_S_resolutionTrinomeSecondDegre.dll

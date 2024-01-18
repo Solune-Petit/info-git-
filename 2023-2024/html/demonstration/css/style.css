@@ -1,0 +1,14 @@
+.text{
+    color: rgb(106, 0, 255);
+    font-style: bold;
+    font-size: 30px;
+}
+
+p{
+    font-style:italic;
+    
+}
+
+img{
+    width: 1000px;
+}

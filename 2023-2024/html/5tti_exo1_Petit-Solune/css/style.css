@@ -1,0 +1,35 @@
+.center {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(153, 203, 4);
+    margin: 10px;
+    padding: 10px;
+}
+
+.centerimg{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+}
+
+.p{
+    font-size: 80%;
+}
+
+h2{
+    color: rgb(38, 82, 150);
+    text-shadow: 0px 1px 0px red;
+}
+
+ul{
+    color: red;
+    height: 200%;
+}
+
+ol{
+    color: #127830;
+}

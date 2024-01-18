@@ -1,0 +1,14 @@
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\calculatrice\bin\Debug\net7.0\calculatrice.exe
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\calculatrice\bin\Debug\net7.0\calculatrice.deps.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\calculatrice\bin\Debug\net7.0\calculatrice.runtimeconfig.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\calculatrice\bin\Debug\net7.0\calculatrice.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\calculatrice\bin\Debug\net7.0\calculatrice.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\calculatrice\obj\Debug\net7.0\calculatrice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\calculatrice\obj\Debug\net7.0\calculatrice.AssemblyInfoInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\calculatrice\obj\Debug\net7.0\calculatrice.AssemblyInfo.cs
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\calculatrice\obj\Debug\net7.0\calculatrice.csproj.CoreCompileInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\calculatrice\obj\Debug\net7.0\calculatrice.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\calculatrice\obj\Debug\net7.0\refint\calculatrice.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\calculatrice\obj\Debug\net7.0\calculatrice.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\calculatrice\obj\Debug\net7.0\calculatrice.genruntimeconfig.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\calculatrice\obj\Debug\net7.0\ref\calculatrice.dll

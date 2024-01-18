@@ -1,0 +1,93 @@
+body{
+    background-color: #4674C1;
+}
+
+footer{
+    margin-top: 40%;
+    background-color: grey;
+    border: darkblue;
+    border-radius: 3px;
+    border-style: inset;
+}
+
+h1{
+text-align: center;
+}
+
+.buttonMenu{
+    float: right;
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+}
+
+.boiteTitre{
+    height: 160px;
+}
+
+/* boite des sous-titres avec les lorem ipsum */
+
+.backgroundSousTitre{
+    background-color: #AAD091;
+    display: flex;
+}
+
+.grosseBoiteSousTitre{
+    margin: 0 1.5% 0 1.5%;
+    max-width: 30%;
+    height: auto;
+    background-color: #FDBF2D;
+    border-style: outset;
+    border-color: black;
+    border-radius: 3px;
+}
+
+.petiteBoiteSousTitre{
+    margin: 50px 10px 50px 10px;
+    /* padding: 1px 1px 1px 1px; */
+    background-color: white;
+}
+
+head{
+    float: none;
+}
+
+main{
+    margin-top: 40%;
+    
+}
+
+/* boites des personnes */
+
+.grosseBoitePerso{
+    display: flex;
+    text-align: center;
+}
+
+.petiteBoitePerso{
+    text-align: center;
+    border: darkblue;
+    border-radius: 3px;
+    border-style: dotted;
+    padding: 10px;
+    margin-left: 6%;
+    margin-right: 6%;
+    width: 200px;
+}
+
+/* pour la partie grise */
+
+.grosseBoiteJaune{
+    display: flex;
+}
+
+.boiteJaune{
+    background-color: #FDBF2D;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.buttonMore{
+    background-color: transparent;
+    border: none;
+}

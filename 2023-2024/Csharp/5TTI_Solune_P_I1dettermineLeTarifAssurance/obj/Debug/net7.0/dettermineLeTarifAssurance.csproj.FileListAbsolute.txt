@@ -1,0 +1,14 @@
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\dettermineLeTarifAssurance\bin\Debug\net7.0\dettermineLeTarifAssurance.exe
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\dettermineLeTarifAssurance\bin\Debug\net7.0\dettermineLeTarifAssurance.deps.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\dettermineLeTarifAssurance\bin\Debug\net7.0\dettermineLeTarifAssurance.runtimeconfig.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\dettermineLeTarifAssurance\bin\Debug\net7.0\dettermineLeTarifAssurance.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\dettermineLeTarifAssurance\bin\Debug\net7.0\dettermineLeTarifAssurance.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\dettermineLeTarifAssurance\obj\Debug\net7.0\dettermineLeTarifAssurance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\dettermineLeTarifAssurance\obj\Debug\net7.0\dettermineLeTarifAssurance.AssemblyInfoInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\dettermineLeTarifAssurance\obj\Debug\net7.0\dettermineLeTarifAssurance.AssemblyInfo.cs
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\dettermineLeTarifAssurance\obj\Debug\net7.0\dettermineLeTarifAssurance.csproj.CoreCompileInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\dettermineLeTarifAssurance\obj\Debug\net7.0\dettermineLeTarifAssurance.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\dettermineLeTarifAssurance\obj\Debug\net7.0\refint\dettermineLeTarifAssurance.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\dettermineLeTarifAssurance\obj\Debug\net7.0\dettermineLeTarifAssurance.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\dettermineLeTarifAssurance\obj\Debug\net7.0\dettermineLeTarifAssurance.genruntimeconfig.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\dettermineLeTarifAssurance\obj\Debug\net7.0\ref\dettermineLeTarifAssurance.dll

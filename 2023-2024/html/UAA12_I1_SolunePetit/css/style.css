@@ -1,0 +1,85 @@
+.top{
+    background-color: #6d9390;
+    display: flex;
+    justify-content: center;
+}
+
+.topContent{
+    margin: auto 1% auto 1%;
+    text-align: center;
+    color: #c1420a;
+    font-family: 'Akronim', cursive;
+    text-shadow: 2px 2px 2px white;
+    font-size: x-large;
+}
+
+ul{
+    display: flex;
+    list-style-type: none ;
+    justify-content: center;
+    background-color: black;
+    color: #a4a4a4;
+}
+
+ul a{
+    text-decoration: none;   
+}
+
+li{
+    /* margin: 2%; */
+    padding: 12px 2% 12px 2%;
+    background-color: #308576 ;
+}
+
+.centerPart{
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+
+.centerPartL{
+    padding-right:3.1% ;
+}
+
+.centerPartLLittle{
+    justify-content: flex-end;
+}
+
+.centerPartL hr{
+    width: 200px;
+}
+
+.centerPartL h3{
+    font-size: 30px;
+}
+
+.centerPartR{
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.centerPartR h2{
+    font-size: 40px;
+}
+
+.centerPartR button{
+    background-color: #308576;
+    color: white;
+}
+
+button:hover{
+    transition: 1s;
+    transform: scale(1.5);
+    background-color: red;
+}
+
+footer{
+    background-color: black;
+    color: #C0C0C0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 50px;
+}

@@ -1,0 +1,14 @@
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\detecteur_de_touches\obj\Debug\net7.0\detecteur_de_touches.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\detecteur_de_touches\obj\Debug\net7.0\detecteur_de_touches.AssemblyInfoInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\detecteur_de_touches\obj\Debug\net7.0\detecteur_de_touches.AssemblyInfo.cs
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\detecteur_de_touches\obj\Debug\net7.0\detecteur_de_touches.csproj.CoreCompileInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\detecteur_de_touches\bin\Debug\net7.0\detecteur_de_touches.exe
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\detecteur_de_touches\bin\Debug\net7.0\detecteur_de_touches.deps.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\detecteur_de_touches\bin\Debug\net7.0\detecteur_de_touches.runtimeconfig.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\detecteur_de_touches\bin\Debug\net7.0\detecteur_de_touches.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\detecteur_de_touches\bin\Debug\net7.0\detecteur_de_touches.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\detecteur_de_touches\obj\Debug\net7.0\detecteur_de_touches.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\detecteur_de_touches\obj\Debug\net7.0\refint\detecteur_de_touches.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\detecteur_de_touches\obj\Debug\net7.0\detecteur_de_touches.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\detecteur_de_touches\obj\Debug\net7.0\detecteur_de_touches.genruntimeconfig.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\detecteur_de_touches\obj\Debug\net7.0\ref\detecteur_de_touches.dll

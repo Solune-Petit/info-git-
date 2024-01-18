@@ -1,0 +1,95 @@
+/* faire un dégradé ves le centre de l'écran et pas de lignes !!!!!! */
+
+
+html{
+    color: white;
+}
+
+body{
+    background: radial-gradient(circle, #282118, #43382a);
+}
+
+.title-login{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login{
+    transition : 1s;
+    color: #fff;
+    background-color: #c6b47e;
+    border: none;
+    border-radius: 15px;
+    transform: translateY(0);
+}
+
+.login:hover{
+    background-color: #c6b47e;
+    box-shadow: 0 10px 10px -10px #c6b47eca;
+    transform: translateY(-8px);
+}
+
+.login:active{
+    background-color: #c6b47e;
+    box-shadow: 0 5px #c6b47eca;
+    transform: translateY(0);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    
+}
+
+.NavBar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.NavBar li{
+    flex: 1;
+    text-align: center;
+}
+
+.NavBar button {
+    transition : 1s;
+    color: #fff;
+    background-color: #c6b47e;
+    border: none;
+    border-radius: 15px;
+    transform: translateY(0);
+}
+
+.NavBar button:hover {
+    background-color: #c6b47e;
+    box-shadow: 0 10px 10px -10px #c6b47eca;
+    transform: translateY(-10px);
+}
+
+.NavBar button:active {
+    background-color: #c6b47e;
+    box-shadow: 0 5px #c6b47eca;
+    transform: translateY(0);
+}
+
+.NavBar button.current_page{
+    transition : 1s;
+    color: #fff;
+    background-color: #c6b47e;
+    border: none;
+    border-radius: 15px;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 10px -10px #c6b47eca;
+  }
+
+.NavBar button.current_page:hover {
+    background-color: rgba(255, 0, 0, 0.547);
+    transform: translateY(-10px);
+    box-shadow: 0 10px 10px -10px rgba(255, 0, 0, 0.356);
+    transform: translateY(-10px);
+}

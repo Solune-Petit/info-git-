@@ -1,0 +1,14 @@
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\testeur\obj\Debug\net7.0\testeur.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\testeur\obj\Debug\net7.0\testeur.AssemblyInfoInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\testeur\obj\Debug\net7.0\testeur.AssemblyInfo.cs
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\testeur\obj\Debug\net7.0\testeur.csproj.CoreCompileInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\testeur\bin\Debug\net7.0\testeur.exe
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\testeur\bin\Debug\net7.0\testeur.deps.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\testeur\bin\Debug\net7.0\testeur.runtimeconfig.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\testeur\bin\Debug\net7.0\testeur.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\testeur\bin\Debug\net7.0\testeur.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\testeur\obj\Debug\net7.0\testeur.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\testeur\obj\Debug\net7.0\refint\testeur.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\testeur\obj\Debug\net7.0\testeur.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\testeur\obj\Debug\net7.0\testeur.genruntimeconfig.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\testeur\obj\Debug\net7.0\ref\testeur.dll

@@ -1,0 +1,62 @@
+2023-12-07 20:29:29,192
+2023-12-07 20:29:29,192: Mouse moved to (814, 69)
+2023-12-07 20:29:30,858: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:31,657: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:32,016: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:33,187: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:34,002: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:34,360: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:34,973: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:35,942: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:36,322: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:36,695: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:37,575: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:37,965: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:38,357: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:39,405: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:39,811: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:40,231: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:40,857: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:41,328: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:42,147: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:42,536: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:42,853: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:43,462: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:43,924: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:44,518: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:44,988: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:45,372: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:46,691: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:47,837: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:48,699: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:49,463: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:50,551: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:51,425: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:51,834: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:52,262: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:52,815: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:53,675: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:54,065: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:54,481: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:55,386: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:56,051: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:56,995: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:57,348: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:29:59,698: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:30:01,365: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:30:02,275: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:30:02,952: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:30:03,579: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:30:04,191: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:30:04,793: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:30:05,316: Mouse clicked at (814, 69) with Button.left
+2023-12-07 20:30:05,502: Mouse clicked at (814, 69) with Button.left
+
+
+
+
+
+
+
+
+

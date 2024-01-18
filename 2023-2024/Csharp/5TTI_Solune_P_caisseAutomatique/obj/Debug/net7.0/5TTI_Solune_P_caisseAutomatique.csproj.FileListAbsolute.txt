@@ -1,0 +1,14 @@
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_caisseAutomatique\bin\Debug\net7.0\5TTI_Solune_P_caisseAutomatique.exe
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_caisseAutomatique\bin\Debug\net7.0\5TTI_Solune_P_caisseAutomatique.deps.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_caisseAutomatique\bin\Debug\net7.0\5TTI_Solune_P_caisseAutomatique.runtimeconfig.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_caisseAutomatique\bin\Debug\net7.0\5TTI_Solune_P_caisseAutomatique.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_caisseAutomatique\bin\Debug\net7.0\5TTI_Solune_P_caisseAutomatique.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_caisseAutomatique\obj\Debug\net7.0\5TTI_Solune_P_caisseAutomatique.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_caisseAutomatique\obj\Debug\net7.0\5TTI_Solune_P_caisseAutomatique.AssemblyInfoInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_caisseAutomatique\obj\Debug\net7.0\5TTI_Solune_P_caisseAutomatique.AssemblyInfo.cs
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_caisseAutomatique\obj\Debug\net7.0\5TTI_Solune_P_caisseAutomatique.csproj.CoreCompileInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_caisseAutomatique\obj\Debug\net7.0\5TTI_Solune_P_caisseAutomatique.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_caisseAutomatique\obj\Debug\net7.0\refint\5TTI_Solune_P_caisseAutomatique.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_caisseAutomatique\obj\Debug\net7.0\5TTI_Solune_P_caisseAutomatique.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_caisseAutomatique\obj\Debug\net7.0\5TTI_Solune_P_caisseAutomatique.genruntimeconfig.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_caisseAutomatique\obj\Debug\net7.0\ref\5TTI_Solune_P_caisseAutomatique.dll

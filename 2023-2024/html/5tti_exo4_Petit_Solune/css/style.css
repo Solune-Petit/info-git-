@@ -1,0 +1,30 @@
+img{
+    width: 300px;
+}
+
+.titre{
+    background-color: black;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.textTitre{
+    font-family: 'Tangerine',serif;
+    font-size: 80px;
+    color: white;
+    border: 3px;
+    border-color: red;
+    border-style: solid;
+    padding: 2% 10% 2% 10%;
+}
+
+ul{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+li{
+    margin: 0 1% 0 1%;
+}

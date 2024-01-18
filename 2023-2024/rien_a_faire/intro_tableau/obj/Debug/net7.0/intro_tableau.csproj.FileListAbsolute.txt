@@ -1,0 +1,14 @@
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\intro_tableau\bin\Debug\net7.0\intro_tableau.exe
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\intro_tableau\bin\Debug\net7.0\intro_tableau.deps.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\intro_tableau\bin\Debug\net7.0\intro_tableau.runtimeconfig.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\intro_tableau\bin\Debug\net7.0\intro_tableau.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\intro_tableau\bin\Debug\net7.0\intro_tableau.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\intro_tableau\obj\Debug\net7.0\intro_tableau.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\intro_tableau\obj\Debug\net7.0\intro_tableau.AssemblyInfoInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\intro_tableau\obj\Debug\net7.0\intro_tableau.AssemblyInfo.cs
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\intro_tableau\obj\Debug\net7.0\intro_tableau.csproj.CoreCompileInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\intro_tableau\obj\Debug\net7.0\intro_tableau.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\intro_tableau\obj\Debug\net7.0\refint\intro_tableau.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\intro_tableau\obj\Debug\net7.0\intro_tableau.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\intro_tableau\obj\Debug\net7.0\intro_tableau.genruntimeconfig.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\intro_tableau\obj\Debug\net7.0\ref\intro_tableau.dll

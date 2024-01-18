@@ -1,0 +1,14 @@
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_concatenation\bin\Debug\net7.0\5TTI_Solune_P_concatenation.exe
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_concatenation\bin\Debug\net7.0\5TTI_Solune_P_concatenation.deps.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_concatenation\bin\Debug\net7.0\5TTI_Solune_P_concatenation.runtimeconfig.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_concatenation\bin\Debug\net7.0\5TTI_Solune_P_concatenation.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_concatenation\bin\Debug\net7.0\5TTI_Solune_P_concatenation.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_concatenation\obj\Debug\net7.0\5TTI_Solune_P_concatenation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_concatenation\obj\Debug\net7.0\5TTI_Solune_P_concatenation.AssemblyInfoInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_concatenation\obj\Debug\net7.0\5TTI_Solune_P_concatenation.AssemblyInfo.cs
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_concatenation\obj\Debug\net7.0\5TTI_Solune_P_concatenation.csproj.CoreCompileInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_concatenation\obj\Debug\net7.0\5TTI_Solune_P_concatenation.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_concatenation\obj\Debug\net7.0\refint\5TTI_Solune_P_concatenation.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_concatenation\obj\Debug\net7.0\5TTI_Solune_P_concatenation.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_concatenation\obj\Debug\net7.0\5TTI_Solune_P_concatenation.genruntimeconfig.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_concatenation\obj\Debug\net7.0\ref\5TTI_Solune_P_concatenation.dll

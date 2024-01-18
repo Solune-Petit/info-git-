@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "concatenation_carre_etoiles_et_condition/1.0.0": {
+        "runtime": {
+          "concatenation_carre_etoiles_et_condition.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "concatenation_carre_etoiles_et_condition/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

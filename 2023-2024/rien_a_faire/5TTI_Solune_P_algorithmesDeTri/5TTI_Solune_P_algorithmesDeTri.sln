@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5TTI_Solune_P_algorithmesDeTri", "5TTI_Solune_P_algorithmesDeTri.csproj", "{8D78508E-74D7-4180-9C07-FF3B85BD810A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D78508E-74D7-4180-9C07-FF3B85BD810A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D78508E-74D7-4180-9C07-FF3B85BD810A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D78508E-74D7-4180-9C07-FF3B85BD810A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D78508E-74D7-4180-9C07-FF3B85BD810A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79345486-C072-4434-8024-2FF63917C42C}
+	EndGlobalSection
+EndGlobal

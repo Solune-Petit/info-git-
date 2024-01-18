@@ -1,0 +1,52 @@
+form{
+    display: flex;
+}
+
+.submit{
+    background-color: rgb(99, 25, 236);
+    margin: 2% 0 2% 0;
+}
+
+.test{
+    color: blue;
+}
+input{
+    border-style: solid;
+    border-radius: 1px;
+    border-radius: 10px;
+}
+
+label{
+    padding-right: 25%;
+}
+
+.coordonee{
+    padding-right: 20%;
+}
+
+legend{
+    background-color: black;
+    margin: 2%;
+    color: white;
+}
+
+button{
+    justify-content: center;
+}
+
+.partie_droite_H{
+    padding-bottom: 8%;
+}
+
+.partie_droite_B{
+    padding-top: 8%;
+}
+
+.mini_group{
+    margin: 5% 0 5% 0;
+}
+
+.submit-div{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="https://structorizer.fisch.lu" version="3.30-13" preRepeat="until " postFor="to" preReturn="return" postForIn="in" preWhile="while " output="OUTPUT" input="INPUT" preFor="for" preExit="exit" preLeave="leave" ignoreCase="true" preThrow="throw" preForIn="foreach" stepFor="by" author="petit" created="2023-11-14" changedby="petit" changed="2023-11-14" origin="Structorizer 3.30-13" text="&#34;classementPairsImpairs&#34;,&#34;//faire pinteurs différents&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;tableOdd = new int[table1.length]&#34;,&#34;tableEven = new int[table1.length]&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+		<for text="&#34;for i &#60;- 0 to nbrColumnTable1 - 1&#34;" comment="&#34;&#34;" counterVar="i" startValue="0" endValue="nbrColumnTable1 - 1" stepConst="1" style="COUNTER" color="ffffff" disabled="0">
+			<qFor>
+				<alternative text="&#34;if (table1[i] % 2 == 0)&#34;" comment="&#34;&#34;" color="ffffff" disabled="0">
+					<qTrue>
+						<instruction text="&#34;tableEven[i] = table1[i]&#34;,&#34;tableOdd[i] = 0&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+					</qTrue>
+					<qFalse>
+						<instruction text="&#34;tableOdd[i] = table1[i]&#34;,&#34;tableEven[i] = 0&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+					</qFalse>
+				</alternative>
+			</qFor>
+		</for>
+	</children>
+</root>

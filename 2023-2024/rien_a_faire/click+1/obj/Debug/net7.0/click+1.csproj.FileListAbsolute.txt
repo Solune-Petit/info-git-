@@ -1,0 +1,14 @@
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\click+1\obj\Debug\net7.0\click+1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\click+1\obj\Debug\net7.0\click+1.AssemblyInfoInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\click+1\obj\Debug\net7.0\click+1.AssemblyInfo.cs
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\click+1\obj\Debug\net7.0\click+1.csproj.CoreCompileInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\click+1\bin\Debug\net7.0\click+1.exe
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\click+1\bin\Debug\net7.0\click+1.deps.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\click+1\bin\Debug\net7.0\click+1.runtimeconfig.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\click+1\bin\Debug\net7.0\click+1.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\click+1\bin\Debug\net7.0\click+1.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\click+1\obj\Debug\net7.0\click+1.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\click+1\obj\Debug\net7.0\refint\click+1.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\click+1\obj\Debug\net7.0\click+1.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\click+1\obj\Debug\net7.0\click+1.genruntimeconfig.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\click+1\obj\Debug\net7.0\ref\click+1.dll

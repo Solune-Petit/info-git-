@@ -1,0 +1,14 @@
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_Mathias_S_mastermind\bin\Debug\net7.0\5TTI_Solune_P_Mathias_S_mastermind.exe
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_Mathias_S_mastermind\bin\Debug\net7.0\5TTI_Solune_P_Mathias_S_mastermind.deps.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_Mathias_S_mastermind\bin\Debug\net7.0\5TTI_Solune_P_Mathias_S_mastermind.runtimeconfig.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_Mathias_S_mastermind\bin\Debug\net7.0\5TTI_Solune_P_Mathias_S_mastermind.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_Mathias_S_mastermind\bin\Debug\net7.0\5TTI_Solune_P_Mathias_S_mastermind.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_Mathias_S_mastermind\obj\Debug\net7.0\5TTI_Solune_P_Mathias_S_mastermind.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_Mathias_S_mastermind\obj\Debug\net7.0\5TTI_Solune_P_Mathias_S_mastermind.AssemblyInfoInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_Mathias_S_mastermind\obj\Debug\net7.0\5TTI_Solune_P_Mathias_S_mastermind.AssemblyInfo.cs
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_Mathias_S_mastermind\obj\Debug\net7.0\5TTI_Solune_P_Mathias_S_mastermind.csproj.CoreCompileInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_Mathias_S_mastermind\obj\Debug\net7.0\5TTI_Solune_P_Mathias_S_mastermind.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_Mathias_S_mastermind\obj\Debug\net7.0\refint\5TTI_Solune_P_Mathias_S_mastermind.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_Mathias_S_mastermind\obj\Debug\net7.0\5TTI_Solune_P_Mathias_S_mastermind.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_Mathias_S_mastermind\obj\Debug\net7.0\5TTI_Solune_P_Mathias_S_mastermind.genruntimeconfig.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_Mathias_S_mastermind\obj\Debug\net7.0\ref\5TTI_Solune_P_Mathias_S_mastermind.dll

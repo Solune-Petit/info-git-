@@ -1,0 +1,14 @@
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\concatenation_carre_etoiles_et_condition\bin\Debug\net7.0\concatenation_carre_etoiles_et_condition.exe
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\concatenation_carre_etoiles_et_condition\bin\Debug\net7.0\concatenation_carre_etoiles_et_condition.deps.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\concatenation_carre_etoiles_et_condition\bin\Debug\net7.0\concatenation_carre_etoiles_et_condition.runtimeconfig.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\concatenation_carre_etoiles_et_condition\bin\Debug\net7.0\concatenation_carre_etoiles_et_condition.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\concatenation_carre_etoiles_et_condition\bin\Debug\net7.0\concatenation_carre_etoiles_et_condition.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\concatenation_carre_etoiles_et_condition\obj\Debug\net7.0\concatenation_carre_etoiles_et_condition.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\concatenation_carre_etoiles_et_condition\obj\Debug\net7.0\concatenation_carre_etoiles_et_condition.AssemblyInfoInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\concatenation_carre_etoiles_et_condition\obj\Debug\net7.0\concatenation_carre_etoiles_et_condition.AssemblyInfo.cs
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\concatenation_carre_etoiles_et_condition\obj\Debug\net7.0\concatenation_carre_etoiles_et_condition.csproj.CoreCompileInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\concatenation_carre_etoiles_et_condition\obj\Debug\net7.0\concatenation_carre_etoiles_et_condition.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\concatenation_carre_etoiles_et_condition\obj\Debug\net7.0\refint\concatenation_carre_etoiles_et_condition.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\concatenation_carre_etoiles_et_condition\obj\Debug\net7.0\concatenation_carre_etoiles_et_condition.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\concatenation_carre_etoiles_et_condition\obj\Debug\net7.0\concatenation_carre_etoiles_et_condition.genruntimeconfig.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\rien_a_faire\concatenation_carre_etoiles_et_condition\obj\Debug\net7.0\ref\concatenation_carre_etoiles_et_condition.dll

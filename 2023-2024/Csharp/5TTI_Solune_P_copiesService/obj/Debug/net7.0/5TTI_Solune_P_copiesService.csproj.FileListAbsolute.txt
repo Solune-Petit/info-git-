@@ -1,0 +1,14 @@
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_copiesService\bin\Debug\net7.0\5TTI_Solune_P_copiesService.exe
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_copiesService\bin\Debug\net7.0\5TTI_Solune_P_copiesService.deps.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_copiesService\bin\Debug\net7.0\5TTI_Solune_P_copiesService.runtimeconfig.json
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_copiesService\bin\Debug\net7.0\5TTI_Solune_P_copiesService.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_copiesService\bin\Debug\net7.0\5TTI_Solune_P_copiesService.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_copiesService\obj\Debug\net7.0\5TTI_Solune_P_copiesService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_copiesService\obj\Debug\net7.0\5TTI_Solune_P_copiesService.AssemblyInfoInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_copiesService\obj\Debug\net7.0\5TTI_Solune_P_copiesService.AssemblyInfo.cs
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_copiesService\obj\Debug\net7.0\5TTI_Solune_P_copiesService.csproj.CoreCompileInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_copiesService\obj\Debug\net7.0\5TTI_Solune_P_copiesService.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_copiesService\obj\Debug\net7.0\refint\5TTI_Solune_P_copiesService.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_copiesService\obj\Debug\net7.0\5TTI_Solune_P_copiesService.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_copiesService\obj\Debug\net7.0\5TTI_Solune_P_copiesService.genruntimeconfig.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info\Csharp\5TTI_Solune_P_copiesService\obj\Debug\net7.0\ref\5TTI_Solune_P_copiesService.dll
