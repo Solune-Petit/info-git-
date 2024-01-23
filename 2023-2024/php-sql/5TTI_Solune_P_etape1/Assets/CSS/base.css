@@ -2,7 +2,7 @@ body{
     background-color: rgb(211, 222, 218);
 }
 
-header {
+.header {
     background-color: rgb(24, 61, 61);
     margin: 0;
     padding: 10px;
@@ -74,8 +74,8 @@ img {
 } 
 
 .blocImageEcole {
-    height: 300px;
     align-items: center;
+    height: 300px;
 }
 
 
@@ -133,3 +133,4 @@ a {
     margin: 20px;
     padding: 10px;
 }
+

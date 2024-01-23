@@ -1,0 +1,15 @@
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_algoDeTris\obj\Debug\net8.0\5TTI_Solune_P_algoDeTris.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_algoDeTris\obj\Debug\net8.0\5TTI_Solune_P_algoDeTris.AssemblyInfoInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_algoDeTris\obj\Debug\net8.0\5TTI_Solune_P_algoDeTris.AssemblyInfo.cs
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_algoDeTris\obj\Debug\net8.0\5TTI_Solune_P_algoDeTris.csproj.CoreCompileInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_algoDeTris\obj\Debug\net8.0\5TTI_Solune_P_algoDeTris.sourcelink.json
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_algoDeTris\bin\Debug\net8.0\5TTI_Solune_P_algoDeTris.exe
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_algoDeTris\bin\Debug\net8.0\5TTI_Solune_P_algoDeTris.deps.json
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_algoDeTris\bin\Debug\net8.0\5TTI_Solune_P_algoDeTris.runtimeconfig.json
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_algoDeTris\bin\Debug\net8.0\5TTI_Solune_P_algoDeTris.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_algoDeTris\bin\Debug\net8.0\5TTI_Solune_P_algoDeTris.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_algoDeTris\obj\Debug\net8.0\5TTI_Solune_P_algoDeTris.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_algoDeTris\obj\Debug\net8.0\refint\5TTI_Solune_P_algoDeTris.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_algoDeTris\obj\Debug\net8.0\5TTI_Solune_P_algoDeTris.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_algoDeTris\obj\Debug\net8.0\5TTI_Solune_P_algoDeTris.genruntimeconfig.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_algoDeTris\obj\Debug\net8.0\ref\5TTI_Solune_P_algoDeTris.dll

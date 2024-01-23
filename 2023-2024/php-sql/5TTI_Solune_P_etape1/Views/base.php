@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="/Assets/CSS/form.css">
     <link rel="stylesheet" href="/Assets/CSS/flex.css">
     <?php require_once("Views/Components/navBar.php"); ?>
-    <!-- on personalisera le titre de la page en fonction de la page sur laquelle on va => variable php $title -->
     <title><?= $title ?></title>
 </head>
 

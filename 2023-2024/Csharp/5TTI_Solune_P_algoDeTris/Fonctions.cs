@@ -1,20 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace _5TTI_Solune_P_algoDeTris
 {
-    public struct fonctions
+    public struct Fonctions
     {
         public void intuitif(double[] tableauTrie)
         {
             double echange;
-
-            for (int i = 0; i < tableauTrie.Length - 2; i++)
+            for (int i = 0; i < tableauTrie.Length - 1; i++)
             {
-                for (int j = i + 1; j < tableauTrie.Length - 1; i++)
+                for (int j = i + 1; j < tableauTrie.Length; j++)
                 {
                     if (tableauTrie[i] > tableauTrie[j])
                     {
@@ -24,49 +24,57 @@ namespace _5TTI_Solune_P_algoDeTris
                     }
                 }
             }
+
         }
 
         public void selection(double[] tableauTrie)
         {
             double replaceValue;
-            double replaceIndex;
-            tableauTrie = new double[tableauTrie.Length];
-
-            for (int index = 0; index < tableauTrie.Length - 2; index++)
+            int replaceIndex;
+            for (int i = 0; i <= tableauTrie.Length - 2; i++)
             {
-                replaceValue = tableauTrie[index];
-
-                for (int checkIndex = index + 1; checkIndex < tableauTrie.Length - 1; checkIndex++)
+                replaceIndex = i;
+                replaceValue = tableauTrie[i];
+                for (int checkIndex = i + 1; checkIndex <= tableauTrie.Length - 1; checkIndex++)
                 {
-                    if (checkIndex < index)
+                    if (tableauTrie[checkIndex] < replaceValue)
                     {
                         replaceValue = tableauTrie[checkIndex];
                         replaceIndex = checkIndex;
                     }
-
-                    tableauTrie[checkIndex] = tableauTrie[index];
-                    tableauTrie[index] = replaceValue;
+                }
+                if (replaceIndex != i)
+                {
+                    tableauTrie[replaceIndex] = tableauTrie[i];
+                    tableauTrie[i] = replaceValue;
                 }
             }
+        }
+        public string showTabInt(int[] tab)
+        {
+            string mess = "";
+            for (int i = 0; i < tab.Length; i++)
+            {
+                mess += tab[i];
+                mess += "; ";
+            }
+            return mess;
         }
 
         public void bulle(double[] tableauTrie)
         {
             bool b1 = true;
             double az;
-            tableauTrie = new double[tableauTrie.Length];
-
-            while (b1 = true)
+            while (b1)
             {
                 b1 = false;
-
-                for (int i = 0; i < tableauTrie.Length - 2; i++)
+                for (int i = 0; i < tableauTrie.Length - 1; i++)
                 {
                     if (tableauTrie[i] > tableauTrie[i + 1])
                     {
                         az = tableauTrie[i];
                         tableauTrie[i] = tableauTrie[i + 1];
-                        tableauTrie[(i + 1)] = az;
+                        tableauTrie[i + 1] = az;
                         b1 = true;
                     }
                 }
@@ -77,10 +85,10 @@ namespace _5TTI_Solune_P_algoDeTris
         {
             int ecart = tableauTrie.Length;
             bool swp;
-
+            double swap;
             do
             {
-                ecart = ecart / 2;
+                ecart /= 2;
                 do
                 {
                     swp = false;
@@ -88,46 +96,43 @@ namespace _5TTI_Solune_P_algoDeTris
                     {
                         if (tableauTrie[i] > tableauTrie[i + ecart])
                         {
-                            double swap = tableauTrie[i];
-                            tableauTrie[i] = tableauTrie[(i + ecart)];
-                            tableauTrie[i + ecart] = swap;
                             swp = true;
+                            swap = tableauTrie[i];
+                            tableauTrie[i] = tableauTrie[i + ecart];
+                            tableauTrie[i + ecart] = swap;
                         }
                     }
-                } while (swp == false);
-            } while (ecart == 1);
+                } while (swp);
+            } while (ecart != 1);
         }
 
         public void encastrement(double[] tableauTrie)
         {
             int n = tableauTrie.Length;
-            double x;
-
-            for (int j = 0; j < n; j++)
+            for (int j = 1; j < n; j++)
             {
-                x = tableauTrie[j];
+                double x = tableauTrie[j];
                 int i = j - 1;
                 bool bpp = false;
-                while (x < tableauTrie[i] || bpp == false)
+                while (x < tableauTrie[i] && !bpp)
                 {
-                    tableauTrie[(i + 1)] = tableauTrie[i];
+                    tableauTrie[i + 1] = tableauTrie[i];
                     if (i == 0)
                     {
                         bpp = true;
                     }
                     else
                     {
-                        i--;
+                        i = i - 1;
                     }
-
-                    if (bpp)
-                    {
-                        tableauTrie[0] = x;
-                    }
-                    else
-                    {
-                        tableauTrie[i + 1] = x;
-                    }
+                }
+                if (bpp)
+                {
+                    tableauTrie[0] = x;
+                }
+                else
+                {
+                    tableauTrie[i + 1] = x;
                 }
             }
         }
