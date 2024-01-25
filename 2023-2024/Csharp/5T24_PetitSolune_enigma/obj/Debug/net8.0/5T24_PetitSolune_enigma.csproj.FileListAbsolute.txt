@@ -1,0 +1,15 @@
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5T24_PetitSolune_enigma\bin\Debug\net8.0\5T24_PetitSolune_enigma.exe
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5T24_PetitSolune_enigma\bin\Debug\net8.0\5T24_PetitSolune_enigma.deps.json
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5T24_PetitSolune_enigma\bin\Debug\net8.0\5T24_PetitSolune_enigma.runtimeconfig.json
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5T24_PetitSolune_enigma\bin\Debug\net8.0\5T24_PetitSolune_enigma.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5T24_PetitSolune_enigma\bin\Debug\net8.0\5T24_PetitSolune_enigma.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5T24_PetitSolune_enigma\obj\Debug\net8.0\5T24_PetitSolune_enigma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5T24_PetitSolune_enigma\obj\Debug\net8.0\5T24_PetitSolune_enigma.AssemblyInfoInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5T24_PetitSolune_enigma\obj\Debug\net8.0\5T24_PetitSolune_enigma.AssemblyInfo.cs
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5T24_PetitSolune_enigma\obj\Debug\net8.0\5T24_PetitSolune_enigma.csproj.CoreCompileInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5T24_PetitSolune_enigma\obj\Debug\net8.0\5T24_PetitSolune_enigma.sourcelink.json
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5T24_PetitSolune_enigma\obj\Debug\net8.0\5T24_PetitSolune_enigma.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5T24_PetitSolune_enigma\obj\Debug\net8.0\refint\5T24_PetitSolune_enigma.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5T24_PetitSolune_enigma\obj\Debug\net8.0\5T24_PetitSolune_enigma.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5T24_PetitSolune_enigma\obj\Debug\net8.0\5T24_PetitSolune_enigma.genruntimeconfig.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5T24_PetitSolune_enigma\obj\Debug\net8.0\ref\5T24_PetitSolune_enigma.dll
