@@ -59,7 +59,8 @@ namespace _5TTI_Solune_P_algorithmesDeTri
                 Console.WriteLine(phrase);
             }else if (choix == 6)
             {
-
+                tousLesTris(tableau, tableauTrie, out string phrase);
+                Console.WriteLine(phrase);
             }
 
             
@@ -158,6 +159,60 @@ namespace _5TTI_Solune_P_algorithmesDeTri
                     phrase = phrase + temp.ToString() + " | ";
                 }
                 phrase = phrase + "\n il a fallut " + millisec + " millisecondes pour trier ce tableau";
+            }
+
+            static void tousLesTris(double[] tableau, double[] tableauTrie, out string phrase)
+            {
+                tableauTrie = tableau;
+
+                Fonctions mesOutils = new Fonctions();
+                phrase = string.Empty;
+                Stopwatch chrono = new Stopwatch();
+                chrono.Start();
+                mesOutils.intuitif(tableauTrie);
+                chrono.Stop();
+                long millisec = chrono.ElapsedMilliseconds;
+                phrase = phrase + "\n il a fallut " + millisec + " millisecondes pour trier ce tableau avec la méthode intuitif";
+
+                //-------------------------
+
+                tableauTrie = tableau;
+                chrono = new Stopwatch();
+                chrono.Start();
+                mesOutils.selection(tableauTrie);
+                chrono.Stop();
+                millisec = chrono.ElapsedMilliseconds;
+                phrase = phrase + "\n il a fallut " + millisec + " millisecondes pour trier ce tableau avec la méthode selection";
+
+                //--------------------------
+
+                tableauTrie = tableau;
+                chrono = new Stopwatch();
+                chrono.Start();
+                mesOutils.bulle(tableauTrie);
+                chrono.Stop();
+                millisec = chrono.ElapsedMilliseconds;
+                phrase = phrase + "\n il a fallut " + millisec + " millisecondes pour trier ce tableau avec la méthode bulle";
+
+                //--------------------------
+
+                tableauTrie = tableau;
+                chrono = new Stopwatch();
+                chrono.Start();
+                mesOutils.shell(tableauTrie);
+                chrono.Stop();
+                millisec = chrono.ElapsedMilliseconds;
+                phrase = phrase + "\n il a fallut " + millisec + " millisecondes pour trier ce tableau avec la méthode shell";
+
+                //--------------------------
+
+                tableauTrie = tableau;
+                chrono = new Stopwatch();
+                chrono.Start();
+                mesOutils.encastrement(tableauTrie);
+                chrono.Stop();
+                millisec = chrono.ElapsedMilliseconds;
+                phrase = phrase + "\n il a fallut " + millisec + " millisecondes pour trier ce tableau avec la méthode encastrement";
             }
         }
     }
