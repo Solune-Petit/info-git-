@@ -90,7 +90,7 @@ namespace _5TTI_Solune_P_algorithmesDeTri
                     double temp = tableauTrie[i];
                     phrase = phrase + temp.ToString() + " | ";
                 }
-                phrase = phrase + "\n il a fallut " + millisec + " millisecondes pour trier ce tableau";
+                phrase = phrase + "\n il a fallut " + millisec + " millisecondes pour trier ce tableau avec la méthode intuitif";
             }
 
             static void triSelection(double[] tableauTrie, out string phrase)
@@ -107,7 +107,7 @@ namespace _5TTI_Solune_P_algorithmesDeTri
                     double temp = tableauTrie[i];
                     phrase = phrase + temp.ToString() + " | ";
                 }
-                phrase = phrase + "\n il a fallut " + millisec + " millisecondes pour trier ce tableau";
+                phrase = phrase + "\n il a fallut " + millisec + " millisecondes pour trier ce tableau avec la méthode sélection";
             }
 
             static void triBulle(double[] tableauTrie, out string phrase)
@@ -124,7 +124,7 @@ namespace _5TTI_Solune_P_algorithmesDeTri
                     double temp = tableauTrie[i];
                     phrase = phrase + temp.ToString() + " | ";
                 }
-                phrase = phrase + "\n il a fallut " + millisec + " millisecondes pour trier ce tableau";
+                phrase = phrase + "\n il a fallut " + millisec + " millisecondes pour trier ce tableau avec la méthode bulle";
             }
 
             static void triShell(double[] tableauTrie, out string phrase)
@@ -141,7 +141,7 @@ namespace _5TTI_Solune_P_algorithmesDeTri
                     double temp = tableauTrie[i];
                     phrase = phrase + temp.ToString() + " | ";
                 }
-                phrase = phrase + "\n il a fallut " + millisec + " millisecondes pour trier ce tableau";
+                phrase = phrase + "\n il a fallut " + millisec + " millisecondes pour trier ce tableau avec la méthode shell";
             }
 
             static void triEncastrement(double[] tableauTrie, out string phrase)
@@ -158,7 +158,7 @@ namespace _5TTI_Solune_P_algorithmesDeTri
                     double temp = tableauTrie[i];
                     phrase = phrase + temp.ToString() + " | ";
                 }
-                phrase = phrase + "\n il a fallut " + millisec + " millisecondes pour trier ce tableau";
+                phrase = phrase + "\n il a fallut " + millisec + " millisecondes pour trier ce tableau avec la méthode encastrement";
             }
 
             static void tousLesTris(double[] tableau, double[] tableauTrie, out string phrase)

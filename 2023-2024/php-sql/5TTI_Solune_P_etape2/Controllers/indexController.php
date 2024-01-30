@@ -4,8 +4,8 @@ require_once("Models/schoolModel.php");
 // on ajoutera par la suite les require aux modeles
 
 // récupération du chemin désiré
-$uri = $SERVER["REQUEST_URI"];
-if ($url == "/index.php" || $uri === "/") {
+$uri = $_SERVER["REQUEST_URI"];
+if ($uri == "/index.php" || $uri === "/") {
     // récupérer toutes les données de la table school
     $schools = selectAllSchools($pdo);
 
