@@ -41,7 +41,6 @@ namespace _5T24_PetitSolune_enigma
         public static void yellow()
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.ForegroundColor = ConsoleColor.;
         }
 
         public static void darkblue()

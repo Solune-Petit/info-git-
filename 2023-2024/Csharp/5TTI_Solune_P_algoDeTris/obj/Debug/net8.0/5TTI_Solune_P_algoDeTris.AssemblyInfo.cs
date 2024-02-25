@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("5TTI_Solune_P_algoDeTris")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fed183a9cd20890a9c461bb8d821edbb68e10e15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d664228e196655edd2850bb213187f927c41ebca")]
 [assembly: System.Reflection.AssemblyProductAttribute("5TTI_Solune_P_algoDeTris")]
 [assembly: System.Reflection.AssemblyTitleAttribute("5TTI_Solune_P_algoDeTris")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
