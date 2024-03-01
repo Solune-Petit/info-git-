@@ -23,9 +23,8 @@
                 <input type="password" placeholder="Mot de passe" class="form-control" id="mot_de_passe" name="mot_de_passe" required <?php if (isset($_SESSION['user'])) : ?>value="<?= $_SESSION['user']->passWordUser ?>" <?php endif ?>>
             </div>
             <div>
-                <button name="btnEnvoi" class="btn btn-primary">Envoyer</button>
+                <button name="btnEnvoi" class="btn btn-primary"><?php if(isset($_SESSION['user'])):?>modifier le profil<?php else :?>Envoyer<?php endif?></button>
             </div>
-            <?php if (isset($_SESSION['user'])) : ?> <a><p>suprimer le compte</p></a> <?php endif ?>
         </fieldset>
     </form>
 </div>

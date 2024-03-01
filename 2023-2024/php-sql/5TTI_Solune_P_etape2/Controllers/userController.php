@@ -33,6 +33,17 @@ if ($uri == "/inscriptionOrEditProfil")
 {
     session_destroy();
     header("location:/");
+}else if ($uri == "/updateProfile")
+{
+    if(isset($_POST['btnEnvoi'])){
+            updateUser($pdo);
+            updateSession($pdo);
+            header('location:/updateProfile');
+    }
+
+    $title = "inscription";
+    $template = "Views/Users/inscriptionOrEditProfil.php";
+    require_once("Views/base.php");
 }
 
 function verifEmptyData()
