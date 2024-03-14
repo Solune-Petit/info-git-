@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="https://structorizer.fisch.lu" version="3.30-13" preRepeat="until " postFor="to" preReturn="return" postForIn="in" preWhile="while " output="OUTPUT" input="INPUT" preFor="for" preExit="exit" preLeave="leave" ignoreCase="true" preThrow="throw" preForIn="foreach" stepFor="by" author="petit" created="2024-03-12" changedby="petit" changed="2024-03-12" origin="Structorizer 3.30-13" text="&#34;concatener_matrices&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;bool possible = true&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+		<alternative text="&#34;if matrice1.GetLenght(0) == matrice1.GetLenght(0)&#34;" comment="&#34;&#34;" color="ffffff" disabled="0">
+			<qTrue>
+				<for text="&#34;for i &#60;- 0 to matrice1.GetLenght(0) by i++&#34;" comment="&#34;&#34;" counterVar="i" startValue="0" endValue="matrice1.GetLenght(0)" stepConst="1" style="FREETEXT" color="ffffff" disabled="0">
+					<qFor>
+						<for text="&#34;for j &#60;- 0 to matrice1.GetLenght(1) by j++&#34;" comment="&#34;&#34;" counterVar="j" startValue="0" endValue="matrice1.GetLenght(1)" stepConst="1" style="FREETEXT" color="ffffff" disabled="0">
+							<qFor>
+								<instruction text="&#34;result[i,j] = matrice1[i,j]&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+							</qFor>
+						</for>
+						<for text="&#34;for j &#60;- 0 to matrice2.GetLenght(1) by j++&#34;" comment="&#34;&#34;" counterVar="j" startValue="0" endValue="matrice2.GetLenght(1)" stepConst="1" style="FREETEXT" color="ffffff" disabled="0">
+							<qFor>
+								<instruction text="&#34;result[i,j+matrice1.GetLenght(1)] = matrice2[i,j]&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+							</qFor>
+						</for>
+					</qFor>
+				</for>
+			</qTrue>
+			<qFalse>
+				<instruction text="&#34;possible = false&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+			</qFalse>
+		</alternative>
+	</children>
+</root>
