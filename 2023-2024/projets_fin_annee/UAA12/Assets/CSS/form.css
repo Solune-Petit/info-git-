@@ -50,6 +50,12 @@ fieldset{
     font-size: 35px;
 }
 
+.btn-big-custom{
+    width: 250px;
+    height: 100px;
+    font-size: 30px;
+}
+
 form label {
     display: block;
     font-size: 2em;

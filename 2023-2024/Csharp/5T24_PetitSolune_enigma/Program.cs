@@ -1,22 +1,5 @@
 ﻿namespace _5T24_PetitSolune_enigma
 {
-    namespace Structures
-    {
-        public struct Rotors
-        {
-            public string[,] rotor1;
-            public string[,] rotor2;
-            public string[,] rotor3; 
-            
-            public Rotors()
-            {
-                rotor1 = new string[2, 25];
-                rotor2 = new string[2, 25];
-                rotor3 = new string[2, 25];
-            }
-        }
-    }
-
     internal class Program
     {
         static void Main(string[] args)
@@ -34,6 +17,8 @@
 
             if (usage == "encrypter")
             {
+                Console.WriteLine("quels sont les rotors que vous voulez utilliser ?");
+                Console.ReadLine();
                 Console.WriteLine("quel est le message à encrypter ?");
                 message = Console.ReadLine();
                 Console.Clear();

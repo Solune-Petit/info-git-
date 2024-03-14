@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("5T24_PetitSolune_enigma")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d664228e196655edd2850bb213187f927c41ebca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+449b10b7a1af294182a375c9329cc315a4bf7e43")]
 [assembly: System.Reflection.AssemblyProductAttribute("5T24_PetitSolune_enigma")]
 [assembly: System.Reflection.AssemblyTitleAttribute("5T24_PetitSolune_enigma")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

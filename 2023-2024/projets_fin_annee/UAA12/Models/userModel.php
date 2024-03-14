@@ -11,8 +11,8 @@ function createUser($pdo)
 {
     try {
     //définition de la requête d'insertion en utilisant la notion de paramètre
-    $query = 'insert into utilisateurs (nomUser, prenomUser, loginUser, passWordUser, emailUser, role)
-    values (:nomUser, :prenomUser, :loginUser, :passWordUser, :emailUser, :role)';
+    $query = 'insert into utilisateurs (nomUser, prenomUser, loginUser, passWordUser, emailUser, role, adresseUser, villeUser, CPUser)
+    values (:nomUser, :prenomUser, :loginUser, :passWordUser, :emailUser, :role, :adresseUser, :villeUser, :CPUser)';
     //préparation de la requête
     $ajouteUser = $pdo->prepare($query);
     //exécution en attribuant les valeurs récupérées dans le formulaire aux paramètres
@@ -22,7 +22,10 @@ function createUser($pdo)
         'loginUser' => $_POST["login"],
         'passWordUser' => $_POST["mot_de_passe"],
         'emailUser' => $_POST["email"],
-        'role' => 'user'
+        'role' => 'user',
+        'adresseUser' => $_POST["adresse"],
+        'villeUser' => $_POST["ville"],
+        'CPUser' => $_POST["CP"]
     ]);
     }catch (PDOEXCEPTION $e) {
         $message = $e->getMessage();
@@ -95,6 +98,20 @@ function updateSession($pdo)
         $user = $selectUser->fetch();
         $_SESSION["user"] = $user;
     } catch (PDOException $e){
+        $message = $e->getMessage();
+        die($message);
+    }
+}
+
+function deleteProfile($pdo)
+{
+    try {
+        $query = 'delete from utilisateurs where id = :id';
+        $delUser = $pdo->prepare($query);
+        $delUser->execute([
+            'id' =>$_SESSION["user"]->id
+        ]);
+    }catch (PDOException $e) {
         $message = $e->getMessage();
         die($message);
     }
