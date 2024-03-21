@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("5TTI_Solune_P_operationsMatrices")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86390e5ee7e41e30769a19c630b892cc4b89a94e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec0b3f9425cfcd0b25a080dc8ccc48223c2cbd5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("5TTI_Solune_P_operationsMatrices")]
 [assembly: System.Reflection.AssemblyTitleAttribute("5TTI_Solune_P_operationsMatrices")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

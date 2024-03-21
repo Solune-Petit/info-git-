@@ -16,6 +16,11 @@ if ($uri == "/inscriptionOrEditProfil")
     $title = "inscription";
     $template = "Views/Users/inscriptionOrEditProfil.php";
     require_once("Views/base.php");
+}else if ($uri == "/mesEcoles")
+{
+
+    
+
 }else if ($uri == "/connexion")
 {
     if(isset($_POST['btnEnvoi'])){
@@ -44,6 +49,19 @@ if ($uri == "/inscriptionOrEditProfil")
     $title = "inscription";
     $template = "Views/Users/inscriptionOrEditProfil.php";
     require_once("Views/base.php");
+
+}else if ($uri == '/Profile'){
+
+
+    $title = "Profile";
+    $template = "Views/Users/profile.php";
+    require_once("Views/base.php");
+}else if ($uri == "/deletePofil")
+{
+    deleteAllScoolsFromUser($pdo);
+    var_dump("coucou");
+    deleteUser($pdo);
+    header("location:deconnexion");
 }
 
 function verifEmptyData()

@@ -49,7 +49,7 @@ form label {
     margin: 10px 0;
 }
 
-form legend {
+legend {
     font-size: 3em;
     background-color: rgb(92, 131, 116);
     color:rgb(4, 13, 18);

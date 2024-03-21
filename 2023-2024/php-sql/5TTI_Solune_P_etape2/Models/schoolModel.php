@@ -23,3 +23,21 @@ function selectAllSchools($pdo)
         die($message);
     }
 }
+
+function deleteAllScoolsFromUser($pdo)
+{
+    try{
+        $query = 'delete from option_ecole where ';
+        
+        
+        $query = 'delete from school where utilisateurId = :utilisateurId';
+        $deleteAllSchoolsFromId = $pdo->prepare($query);
+        $deleteAllSchoolsFromId->execute([
+            'utilisateurId' => $_SESSION["user"]->id
+        ]);
+    } catch (PDOException $e){
+        $message = $e->getMessage();
+        die($message);
+    }
+}
+

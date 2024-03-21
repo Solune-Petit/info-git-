@@ -2,7 +2,7 @@
     <li class="menu"><a href="/index.php">Home</a></li>
     <?php if(isset($_SESSION["user"])) : ?>
         <li class="menu"><a href="mesEcoles">Ecoles</a></li>
-        <li class="menu"><a href="updateProfile">Profil</a></li>
+        <li class="menu"><a href="Profile">Profil</a></li>
         <li class="menu"><a href="deconnexion">Deconnexion</a></li>
     <?php else : ?>
         <li class="menu"><a href="inscriptionOrEditProfil">Inscription</a></li>
