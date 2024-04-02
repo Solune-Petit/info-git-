@@ -28,8 +28,10 @@ if($uri === "/mesEcoles"){
     $title = "Mes écoles";
     $template = "Views/Schools/editOrCreateSchool.php";
     require_once("Views/base.php");
-}elseif ($uri === "voirEcole.php"){
-    $title = $school->schoolnom;
+
+}elseif (isset($_GET["schoolid"]) && $uri === "/voirEcole?schoolId=".$_GET["schoolId"]){
+
+    $title = "mon école";
     $template = "Views/Schools/school.php";
     require_once("Views/base.php");
 }

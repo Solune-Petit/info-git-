@@ -22,7 +22,7 @@
                     <h3><?= $school->schoolNumero ?></h3>
 
                     <!-- il reste encore à adapter le Lien pour retrouver l'école active! -->
-                    <a href="voirEcole.php" class="btn btn-page">Voir l'école</a>
+                    <p><a href="voirEcole?schoolId=<?=$school->schoolId ?>" class="btn btn-page">Voir l'école</a></p>
 
                     <div class="flexible space-around">
                         <!-- Dans le cas où on est connecté et qu'on a cliqué sur mes écoles', on affiche les écoles de l'utilisateur -->
