@@ -1,0 +1,5 @@
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_operationsMatrices\obj\Debug\net8.0\5TTI_Solune_P_operationsMatrices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_operationsMatrices\obj\Debug\net8.0\5TTI_Solune_P_operationsMatrices.AssemblyInfoInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_operationsMatrices\obj\Debug\net8.0\5TTI_Solune_P_operationsMatrices.AssemblyInfo.cs
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_operationsMatrices\obj\Debug\net8.0\5TTI_Solune_P_operationsMatrices.csproj.CoreCompileInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Solune_P_operationsMatrices\obj\Debug\net8.0\5TTI_Solune_P_operationsMatrices.sourcelink.json

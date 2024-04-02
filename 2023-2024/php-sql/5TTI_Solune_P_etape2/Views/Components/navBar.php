@@ -1,7 +1,7 @@
 <ul class="flexible space-evenly header">
     <li class="menu"><a href="/index.php">Home</a></li>
     <?php if(isset($_SESSION["user"])) : ?>
-        <li class="menu"><a href="mesEcoles">Ecoles</a></li>
+        <li class="menu"><a href="mesEcoles">Mes Ecoles</a></li>
         <li class="menu"><a href="Profile">Profil</a></li>
         <li class="menu"><a href="deconnexion">Deconnexion</a></li>
     <?php else : ?>

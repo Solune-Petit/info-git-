@@ -15,7 +15,7 @@
             ColorChanger.cyan();
             do
             {
-                Console.WriteLine("  • 1 : générer une matrice aléatoire (au choix de votre taille)\n  • 2 : additionner 2 matrices au choix\n  • 3 : multiplier 2 matrices aux choix\n  • 4 : concaténer 2 matrices au choix");
+                Console.WriteLine("  • 1 : générer une matrice aléatoire (au choix de votre taille)\n  • 2 : concaténer 2 matrices au choix\n  • 3 : additionner 2 matrices aux choix\n  • 4 : multiplier 2 matrices au choix");
                 ColorChanger.white();
                 Uinput = Console.ReadKey().ToString();
             } while (Uinput != "1" || Uinput != "2" || Uinput != "3" || Uinput!= "4");
@@ -67,7 +67,18 @@
             
             }else if (Uinput == "2")
             {
-                Functions.ConcatenerMatrices(matrice1, matrice2, matriceFinal);
+                Functions.ConcatenerMatrices(matrice1, out string concatene);
+                Console.WriteLine(concatene);
+            }else if (Uinput == "3")
+            {
+                Functions.additionnerMatrices(matrice1, matrice2, matriceFinal, out bool ok);
+                Functions.ConcatenerMatrices(matriceFinal, out string concateneFinal);
+                Console.WriteLine(concateneFinal);
+            }else if (Uinput == "4")
+            {
+                Functions.multiplicationMatrice(matrice1, matrice2, matriceFinal, out bool ok);
+                Functions.ConcatenerMatrices(matriceFinal, out string concateneFinal);
+                Console.WriteLine(concateneFinal);
             }
         }
     }

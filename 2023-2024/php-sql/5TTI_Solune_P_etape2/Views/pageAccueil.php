@@ -6,7 +6,7 @@
 
 <!--Dans le cas où on est connecté, on affiche un Lien permettant l'ajout d'une école -->
 <?php if (isset($_SESSION["user"])) : ?>
-    <a href="createSchool">Ajouter une école</a>
+    <a href="createSchool"><button class="btn"> Ajouter une école</button></a>
 <?php endif ?>
 
 <div class="flexible wrap space-around">
@@ -24,11 +24,13 @@
                     <!-- il reste encore à adapter le Lien pour retrouver l'école active! -->
                     <a href="voirEcole.php" class="btn btn-page">Voir l'école</a>
 
-                    <!-- Dans le cas où on est connecté et qu'on a cliqué sur mes écoles', on affiche les écoles de l'utilisateur -->
-                    <?php if ($uri === "/mesEcoles") : ?>
-                        <p><a href="deleteEcole?schoolId=<?= $school->schoolId ?>">Supprimer l'école</a></p>
-                        <p><a href="updateEcole?schoolId=<?= $school->schoolId ?>">Modifier l'école</a></p>
-                    <?php endif ?>
+                    <div class="flexible space-around">
+                        <!-- Dans le cas où on est connecté et qu'on a cliqué sur mes écoles', on affiche les écoles de l'utilisateur -->
+                        <?php if ($uri === "/mesEcoles") : ?>
+                            <p><a href="updateEcole?schoolId=<?= $school->schoolId ?>"><button class="btn btn-page">Modifier l'école</button></a></p>
+                            <p><a href="deleteEcole?schoolId=<?= $school->schoolId ?>"><button class="btn btn-page" style="color: red;"> suprimer l'école</button></a></p>
+                        <?php endif ?>
+                    </div>
                 </div>
             </div>
         </div>

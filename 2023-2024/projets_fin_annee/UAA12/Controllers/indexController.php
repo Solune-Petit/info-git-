@@ -12,8 +12,4 @@ if ($uri == "/index.php" || $uri === "/pageAcceuil" || $uri == "/") {
     $title = "Page d'accueil";              //titre à afficher dans l'onglet de la page du navigateur
     $template = "Views/pageAccueil.php";    //chemin vers la vue demandée
     require_once("Views/base.php");         //appel de la page de base qui sera remplie avec la vue demandée
-} else if ($uri == "/magasins"){
-    $title = "nos magasins";
-    $template = "Views/pageMagasins";
-    require_once("Views/base.php");
 }

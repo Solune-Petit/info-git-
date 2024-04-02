@@ -58,8 +58,8 @@ if ($uri == "/inscriptionOrEditProfil")
     require_once("Views/base.php");
 }else if ($uri == "/deletePofil")
 {
+    deleteOptionsSchoolsFromUser($pdo);
     deleteAllScoolsFromUser($pdo);
-    var_dump("coucou");
     deleteUser($pdo);
     header("location:deconnexion");
 }

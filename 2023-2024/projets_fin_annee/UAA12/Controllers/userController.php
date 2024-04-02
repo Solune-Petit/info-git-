@@ -17,6 +17,7 @@ if ($uri == "/inscriptionOrEditProfil") {
     $title = "inscription chocolaterie astronautic";
     $template = "Views/Users/inscriptionOrEditProfil.php";
     require_once("Views/base.php");
+
     
 } else if ($uri == "/connexion") {
     // if (isset($_POST['btnEnvoi'])) {
@@ -45,16 +46,28 @@ if ($uri == "/inscriptionOrEditProfil") {
     $title = "connexion";
     $template = "Views/Users/connexion.php";
     require_once("Views/base.php");
+
+
 } else if ($uri == "/deconnexion") {
 
     session_destroy();
     header("location:/");
+
+
 } else if ($uri == "/updateProfile"){
     $title = "modifier profil";
     $template = "Views/Users/inscriptionOrEditProfil.php";
     require_once("Views/base.php");
+
+
 } else if ($uri == "/deleteProfile"){
     
     deleteProfile($pdo);
     header("location:/");
+
+
+}else if ($uri == "/orders"){
+    $title = "Vos commandes";
+    $template = "Views/Users/orders.php";
+    require_once("Views/base.php");
 }
