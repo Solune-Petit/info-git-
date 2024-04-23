@@ -9,7 +9,7 @@ if ($uri == "/inscriptionOrEditProfil") {
     if (isset($_POST['btnEnvoi']))
     {
         createUser($pdo);
-        header('location:/connexion');
+        header('location:/');
 
         connectUser($pdo);
     }

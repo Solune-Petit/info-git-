@@ -5,28 +5,27 @@ using System.Security.AccessControl;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace _5T24_PetitSolune_enigma
 {
     public class fonctions
     {
 
-        public void rotorControl(int[] posInitRotors)
+        public void rotorControl(int[] posInitRotors, out string[,] rotorConfig1, out string[,] rotorConfig2, out string[,] rotorConfig3)
         {
 
-            char temp;
+            string temp;
 
             //creation des différents rotors
-            string[,] rotorConfig1, rotorConfig2, rotorConfig3, rotorConfig4, rotorConfig5;
-            rotorConfig1 = new string[2, 25];
-            rotorConfig2 = new string[2, 25];
-            rotorConfig3 = new string[2, 25];
-            rotorConfig4 = new string[2, 25];
-            rotorConfig5 = new string[2, 25];
+            string[,] rotorConfig4, rotorConfig5;
+            rotorConfig1 = new string[3, 26];
+            rotorConfig2 = new string[3, 26];
+            rotorConfig3 = new string[3, 26];
 
             //listage des combinaisons + alphabet
-            string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-            string chaine1 = "DMTWSILRUYQNKFEJCAZBPGXOHV";
+            string alphabet = "abcdefghijklmnopqrstuvwxyz";
+            string chaine1 = "dmtwsilruyqnkfejcazbpgxohv";
             string chaine2 = "HQZGPJTMOBQNCIFDYAWVEUSRKX";
             string chaine3 = "UQNTLSZFMREHDPXKIBVYGJCWOA";
 
@@ -34,37 +33,31 @@ namespace _5T24_PetitSolune_enigma
             //assignation des combinaisons aux rotor1 en fonction de ce que veux le user
             if (posInitRotors[0] == 1)
             {
-                for (int i = 0; i == 25; i++)
+                for (int i = 0; i <= 25; i++)
                 {
                     rotorConfig1[2, i] = chaine1[i].ToString();
-                }
-                for (int i = 0; i == 25; i++)
-                {
-                    rotorConfig1[1, i] = alphabet[i].ToString();
+                    rotorConfig1[1,i] = alphabet[i].ToString() + chaine1[i].ToString();
+                    rotorConfig1[0, i] = alphabet[i].ToString();
                 }
 
             }
             else if (posInitRotors[0] == 2)
             {
-                for (int i = 0; i == 25; i++)
+                for (int i = 0; i <= 25; i++)
                 {
                     rotorConfig1[2, i] = chaine2[i].ToString();
-                }
-                for (int i = 0; i == 25; i++)
-                {
-                    rotorConfig1[1, i] = alphabet[i].ToString();
+                    rotorConfig1[1, i] = alphabet[i].ToString() + chaine1[i].ToString();
+                    rotorConfig1[0, i] = alphabet[i].ToString();
                 }
 
             }
             else if (posInitRotors[0] == 3)
             {
-                for (int i = 0; i == 25; i++)
+                for (int i = 0; i <= 25; i++)
                 {
                     rotorConfig1[2, i] = chaine3[i].ToString();
-                }
-                for (int i = 0; i == 25; i++)
-                {
-                    rotorConfig1[1, i] = alphabet[i].ToString();
+                    rotorConfig1[1, i] = alphabet[i].ToString() + chaine1[i].ToString();
+                    rotorConfig1[0, i] = alphabet[i].ToString();
                 }
             }
 
@@ -72,189 +65,240 @@ namespace _5T24_PetitSolune_enigma
             //assignation des combinaisons aux rotor2 en fonction de ce que veux le user
             if (posInitRotors[1] == 1)
             {
-                for (int i = 0; i == 25; i++)
+                for (int i = 0; i <= 25; i++)
                 {
                     rotorConfig2[2, i] = chaine1[i].ToString();
-                }
-                for (int i = 0; i == 25; i++)
-                {
-                    rotorConfig2[1, i] = alphabet[i].ToString();
+                    rotorConfig2[1, i] = alphabet[i].ToString() + chaine1[i].ToString();
+                    rotorConfig2[0, i] = alphabet[i].ToString();
                 }
 
             }
             else if (posInitRotors[0] == 2)
             {
-                for (int i = 0; i == 25; i++)
+                for (int i = 0; i <= 25; i++)
                 {
                     rotorConfig2[2, i] = chaine2[i].ToString();
-                }
-                for (int i = 0; i == 25; i++)
-                {
-                    rotorConfig2[1, i] = alphabet[i].ToString();
+                    rotorConfig2[1, i] = alphabet[i].ToString() + chaine1[i].ToString();
+                    rotorConfig2[0, i] = alphabet[i].ToString();
                 }
 
             }
             else if (posInitRotors[0] == 3)
             {
-                for (int i = 0; i == 25; i++)
+                for (int i = 0; i <= 25; i++)
                 {
                     rotorConfig2[2, i] = chaine3[i].ToString();
-                }
-                for (int i = 0; i == 25; i++)
-                {
-                    rotorConfig2[1, i] = alphabet[i].ToString();
+                    rotorConfig2[1, i] = alphabet[i].ToString() + chaine1[i].ToString();
+                    rotorConfig2[0, i] = alphabet[i].ToString();
                 }
             }
 
             //assignation des combinaisons aux rotor3 en fonction de ce que veux le user
             if (posInitRotors[1] == 1)
             {
-                for (int i = 0; i == 25; i++)
+                for (int i = 0; i <= 25; i++)
                 {
                     rotorConfig3[2, i] = chaine1[i].ToString();
-                }
-                for (int i = 0; i == 25; i++)
-                {
-                    rotorConfig3[1, i] = alphabet[i].ToString();
+                    rotorConfig3[1, i] = alphabet[i].ToString() + chaine1[i].ToString();
+                    rotorConfig3[0, i] = alphabet[i].ToString();
                 }
 
             }
             else if (posInitRotors[0] == 2)
             {
-                for (int i = 0; i == 25; i++)
+                for (int i = 0; i <= 25; i++)
                 {
                     rotorConfig3[2, i] = chaine2[i].ToString();
-                }
-                for (int i = 0; i == 25; i++)
-                {
-                    rotorConfig3[1, i] = alphabet[i].ToString();
+                    rotorConfig3[1, i] = alphabet[i].ToString() + chaine1[i].ToString();
+                    rotorConfig3[0, i] = alphabet[i].ToString();
                 }
 
             }
             else if (posInitRotors[0] == 3)
             {
-                for (int i = 0; i == 25; i++)
+                for (int i = 0; i <= 25; i++)
                 {
                     rotorConfig3[2, i] = chaine3[i].ToString();
-                }
-                for (int i = 0; i == 25; i++)
-                {
-                    rotorConfig3[1, i] = alphabet[i].ToString();
+                    rotorConfig3[1, i] = alphabet[i].ToString() + chaine1[i].ToString();
+                    rotorConfig3[0, i] = alphabet[i].ToString();
                 }
             }
 
+
+            temp = rotorConfig1[2, 0];
+            for (int i = 0;i < 25; i++)
+            {
+                rotorConfig1[2, i] = rotorConfig1[2, i + 1];
+            }
+            rotorConfig1[2,25] = temp;
+
         }
 
-        public bool noDoubleConnexion(string UinputTBConnexion, string message) //faire une entrée en plusieurs étapes et pas 1
+        static void turnRotors(ref string[,] rotor1, ref string[,] rotor2, ref string[,] rotor3)
         {
-            bool confirm;
-            message = "";
-
-            for (int i = 0;i < UinputTBConnexion.Length+1;i++)
+            string temp = rotor1[0,0];
+            for (int i = 0;i < rotor1.GetLength(0);i++)
             {
-                for(int j = 0;j < UinputTBConnexion.Length+1;j++)
-                {
-                    if (i == 0)
-                    {
+                rotor1[0,i] = rotor1[0,i+1];
+            }
+            rotor1[0,25] = temp;
 
-                    }else if ((UinputTBConnexion[i - 1] == UinputTBConnexion[j - 1]) && i != j)
-                    { 
-                        message += " ; " + UinputTBConnexion[i];
+            temp = rotor1[1, 0];
+            for (int i = 0; i < rotor1.GetLength(1); i++)
+            {
+                rotor1[1, i] = rotor1[1, i + 1];
+            }
+            rotor1[1, 25] = temp;
+
+
+
+            temp = rotor2[0, 0];
+            for (int i = 0; i < rotor2.GetLength(0); i++)
+            {
+                rotor2[0, i] = rotor2[0, i + 1];
+            }
+            rotor2[0, 25] = temp;
+
+            temp = rotor2[1, 0];
+            for (int i = 0; i < rotor2.GetLength(1); i++)
+            {
+                rotor2[1, i] = rotor2[1, i + 1];
+            }
+            rotor2[1, 25] = temp;
+
+
+
+            temp = rotor3[0, 0];
+            for (int i = 0; i < rotor3.GetLength(0); i++)
+            {
+                rotor3[0, i] = rotor3[0, i + 1];
+            }
+            rotor3[0, 25] = temp;
+
+            temp = rotor3[1, 0];
+            for (int i = 0; i < rotor3.GetLength(1); i++)
+            {
+                rotor3[1, i] = rotor3[1, i + 1];
+            }
+            rotor3[1, 25] = temp;
+        }
+
+        public void setTBconnexion(string UinputTBConnexion, out string message, TBconnexion[] tbConnexion, out bool confirm)     //faire une entrée en plusieurs étapes et pas 1
+        {
+            bool doublon = false;
+            confirm = false;
+            message = string.Empty;
+
+
+            //vérifie qu'il n'y as pas 2 fois la même lettre dans le tableau
+            for (int i = 0;i < 13;i++)
+            {
+                if (tbConnexion[i].lettre1 == UinputTBConnexion || tbConnexion[i].lettre2 == UinputTBConnexion)
+                {
+                    message = "vous avez déjà assigné la lettre " + UinputTBConnexion;
+                    confirm = true;
+                    doublon = true;
+                    i = 14;
+                }
+            }
+
+
+                                                        //si il n'y as pas 2 foi sla même lettre dans le tableau, le programme l'insert
+            if (doublon == false)
+            {
+                for(int i = 0;i < 13;i++)
+                {
+                    if (tbConnexion[i].lettre1 == null)
+                    {
+                        UinputTBConnexion = UinputTBConnexion;
+                        tbConnexion[i].lettre1 = UinputTBConnexion;
+                        confirm = false;
+                        i = 14;
+
+                    }else if (tbConnexion[i].lettre2 == null)
+                    {
+                        tbConnexion[i].lettre2 = UinputTBConnexion;
+                        confirm = false;
+                        i = 14;
                     }
                 }
             }
-
-            if (message== "")
-            {
-                confirm = true;
-            }
-            else
-            {
-                confirm = false;
-            }
-
-            return confirm;
         }
 
-        public void setTBconnexion(TBconnexion[] tbConnexion, string UinputTBConnexion)
+        public void crypt(int[] posInitRotors, string message, TBconnexion[] tbConnexion, string[,] rotor1, string[,] rotor2, string[,] rotor3, out string cryptedMessage)
         {
-            for (int i = 0; i <= tbConnexion.Length; i++)
+            string lettre;
+            string cryptedLettre = "" ;
+            cryptedMessage = "";
+
+
+            for (int i = 0; i < message.Length; i++)
             {
-                for (int j = 0; j <= UinputTBConnexion.Length; i++)
+                if (message[i].ToString() != " ")
                 {
-                    if (UinputTBConnexion[i].ToString() != ";")
-                    {
-                        tbConnexion[i].lettre1 = UinputTBConnexion[i].ToString();
-                        tbConnexion[i + 1].lettre2 = UinputTBConnexion[i + 1].ToString();
-                        i++;
-                    }
+                    turnRotors(ref rotor1, ref rotor2, ref rotor3);
+                    lettre = message[i].ToString();
+                    cryptTbconnexion(lettre, ref cryptedLettre, tbConnexion);
+                    cryptRotorFirstPass(ref cryptedLettre, ref rotor1, ref rotor2, ref rotor3);
+                    //test purpus
+                    cryptedMessage += cryptedLettre;
+                }
+                else
+                {
+                    cryptedMessage += message[i];
                 }
             }
         }
 
-        //public void cryptText(string message, int[] posInitRotors, out string cryptedMessage)
-        //{
-        //    firstPass(message, posInitRotors, out cryptedMessage);
-        //}
+        static void cryptTbconnexion(string lettre, ref string cryptedLettre, TBconnexion[] tbConnexion)
+        {
+            bool converted = false;
 
-        //static void firstPass(string[,] rotors, string message, int[] posInitRotors, out string cryptedMessage)
-        //{
-        //    bool step1 = false;
-        //    bool step2 = false;
+            for (int i = 0;i < 13; i++)
+            {
+                if (lettre == tbConnexion[i].lettre1)
+                {
+                    cryptedLettre = tbConnexion[i].lettre2;
+                    converted = true;
+                }else if (lettre == tbConnexion[i].lettre2)
+                {
+                    cryptedLettre = tbConnexion[i].lettre1;
+                    converted = true;
+                }
+            }
 
-        //    cryptedMessage = "";
-        //    for (int i = 0; i < message.Length; i++)
-        //    {
-        //        char cryptingLetter = message[i];
-        //        if (cryptingLetter == char.Parse(" "))
-        //        {
-        //            cryptedMessage = cryptedMessage + cryptingLetter;
-        //        }
-        //        else
-        //        {
-        //            cryptingLetter = char.Parse(rotors[2, 0]);
-        //            step1 = true;
-        //            mooveRotor(step1, step2, posInitRotors);
-        //            step1 = false;
-        //            cryptingLetter = char.Parse(rotors[1, cryptingLetter - 65]);
-        //            step2 = true;
-        //            mooveRotor(step1, step2, posInitRotors);
-        //            cryptingLetter = char.Parse(rotors[0, cryptingLetter - 65]);
-        //            step2 = false;
-        //            cryptedMessage += cryptingLetter;
-        //        }
-        //    }
-        //}
+            if (converted == false)
+            {
+                cryptedLettre = lettre;
+            }
+        }
 
-        //static void mooveRotor(bool step1, bool step2, bool step3, string[,] rotors, int[] posInitRotors)
-        //{
-        //    if (step1)
-        //    {
-        //        string tempVar = rotors[2, 0];
-        //        for (int i = 0; i < rotors.GetLength(1) - 1; i++)
-        //        {
-        //            rotors[2, i] = rotors[2, i + 1];
-        //        }
-        //        rotors[2, 25] = tempVar;
-        //    }
-        //    else if (step2 && rotors[2, 25] == ((char)posInitRotors[0]).ToString())
-        //    {
-        //        string tempVar = rotors[1, 0];
-        //        for (int i = 0; i < rotors.GetLength(1) - 1; i++)
-        //        {
-        //            rotors[2, i] = rotors[1, i + 1];
-        //        }
-        //        rotors[2, 25] = tempVar;
-        //    }
-        //    else if (step3 && rotors[1, 25] == ((char)posInitRotors[0]).ToString())
-        //    {
-        //        string tempVar = rotors[0, 0];
-        //        for (int i = 0; i < rotors.GetLength(1) - 1; i++)
-        //        {
-        //            rotors[2, i] = rotors[0, i + 1];
-        //        }
-        //        rotors[2, 25] = tempVar;
-        //    }
-        //}
+        static void cryptRotorFirstPass(ref string cryptedLettre, ref string[,] rotor1, ref string[,] rotor2, ref string[,] rotor3)
+        {
+            int posNextRotor = 1;
+            
+            for (int i = 0; i < rotor1.GetLength(0); i++)
+            {
+                if (cryptedLettre == rotor1[0,i])
+                {
+                    cryptedLettre = rotor1[1,i].ToLower();
+                    posNextRotor = i;
+                    i = rotor1.GetLength(0) + 1;
+                }
+            }
+
+            cryptedLettre = rotor2[1, posNextRotor];
+             
+            
+
+            for (int i = 0; i < rotor3.GetLength(0); i++)
+            {
+                if (cryptedLettre == rotor3[0, i])
+                {
+                    cryptedLettre = rotor3[1, i].ToLower();
+                    i = rotor3.GetLength(0) + 1;
+                }
+            }
+        }
     }
 }

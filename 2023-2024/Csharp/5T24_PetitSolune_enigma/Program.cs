@@ -14,6 +14,7 @@ namespace _5T24_PetitSolune_enigma
             int[] posInitRotors = new int[3];
             string UinputTBConnexion;
             string message = "";
+            string cryptedMessage = null;
             string usage = "";
             bool probleme;
 
@@ -30,7 +31,7 @@ namespace _5T24_PetitSolune_enigma
 
             if (usage == "encrypter")
             {
-                //configuration des rotors
+                //configuration des rotors (refaire ça avec tryParse)
                 do {
                     Console.WriteLine("quel est le premier rotor que vous voulez utilliser ?");
                     posInitRotors[0] = int.Parse(Console.ReadLine());
@@ -39,23 +40,34 @@ namespace _5T24_PetitSolune_enigma
                     Console.WriteLine("quel est le troisième rotor que vous voulez utilliser ?");
                     posInitRotors[2] = int.Parse(Console.ReadLine());
                 } while (posInitRotors[0] == posInitRotors[1] && posInitRotors[0]== posInitRotors[2] && posInitRotors[1] == posInitRotors[2]);
-                mesOutils.rotorControl(posInitRotors);
+                mesOutils.rotorControl(posInitRotors,out string[,] rotor1, out string[,] rotor2, out string[,] rotor3);
 
                 //configuration du tableau de connexion
                 do
                 {
-                    Console.WriteLine(message);
-                    Console.WriteLine("quels sont les connexions que vous voulez ? ( example : AH;JK;RG;OP)");
+                    Console.WriteLine(message + "\n \n");
+                    Console.Write("[");
+
+                    for (int i  = 0; i < tbConnexion.Length; i++)
+                    {
+                        Console.Write(tbConnexion[i].lettre1);
+                        Console.Write(tbConnexion[i].lettre2 + "][");
+                    }
+
+                    Console.WriteLine("quels sont les connexions que vous voulez ? \n(si vous ne voulez plus de connexions, mettez juste un espace)");
                     UinputTBConnexion = Console.ReadLine();
-                } while (mesOutils.noDoubleConnexion(UinputTBConnexion, message));
-                mesOutils.setTBconnexion(tbConnexion, UinputTBConnexion);
+                    mesOutils.setTBconnexion(UinputTBConnexion, out message, tbConnexion, out probleme);
+                    Console.Clear();
+                } while (UinputTBConnexion != " " || probleme);
 
 
 
                 Console.WriteLine("quel est le message à encrypter ?");
                 message = Console.ReadLine();
                 Console.Clear();
-                //crypting(posInitRotors, message);
+                mesOutils.crypt(posInitRotors, message, tbConnexion, rotor1, rotor2, rotor3, out cryptedMessage);
+                Console.WriteLine(cryptedMessage);
+                Console.ReadLine();
             }
             else
             {
@@ -63,27 +75,5 @@ namespace _5T24_PetitSolune_enigma
             }
 
         }
-
-        //static void crypting(int[] posInitRotors, string message)
-        //{
-        //    fonctions mesOutils = new fonctions();
-        //    mesOutils.rndRotors(posInitRotors);
-
-        //    for (int i = 0; i < Rotors.GetLength(0); i++)
-        //    {
-        //        for (int j = 0; j < rotors.GetLength(1); j++)
-        //        {
-        //            string temp = rotors[i, j];
-        //            Console.Write(temp + " | ");
-        //        }
-
-        //        Console.WriteLine("");
-        //    }
-
-        //    mesOutils.cryptText(rotors, message, posInitRotors, out string cryptedMessage);
-
-        //    Console.WriteLine(cryptedMessage);
-
-        //}
     }
 }

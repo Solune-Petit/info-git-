@@ -13,4 +13,13 @@ if ($uri == "/magasins"){
     $title = 'nos magasins';
     $template  = 'Views/stores/pageMagasins.php';   
     require_once('Views/base.php');
+
+
+}elseif ($uri == "/myStore"){
+
+    $stores = selectMyStores($pdo);
+
+    $title = 'mes magasins';
+    $template  = 'Views/stores/pageMagasins.php';   
+    require_once('Views/base.php');
 }

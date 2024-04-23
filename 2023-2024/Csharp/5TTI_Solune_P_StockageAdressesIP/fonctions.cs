@@ -9,6 +9,7 @@ namespace _5TTI_Solune_P_StockageAdressesIP
 {
     internal class fonctions
     {
+
         public void lireOctet(out int octetIp)
         {
             string Uinput;
@@ -33,7 +34,7 @@ namespace _5TTI_Solune_P_StockageAdressesIP
         public void concateneAdresse(int[,] TBIP, int ligne, out string sortieAdresse)
         {
             sortieAdresse = "";
-            for (int i = 0;i == 2; i++)
+            for (int i = 0;i <= 2; i++)
             {
                 sortieAdresse += TBIP[ligne,i] + ".";
             }
@@ -44,7 +45,7 @@ namespace _5TTI_Solune_P_StockageAdressesIP
         {
             if (placeLibre < 20)
             {
-                for (int i = 0; i == 3 ; i++)
+                for (int i = 0; i <= 3 ; i++)
                 {
                     TBIP[placeLibre, i] = adresse[i];
                 }
@@ -76,7 +77,7 @@ namespace _5TTI_Solune_P_StockageAdressesIP
         public void concateneTout(int[,] TBIP, string[] tableauNoms, out string sortie)
         {
             sortie = "";
-            for (int i = 0; i == TBIP.GetLength(0); i++)
+            for (int i = 0; i < TBIP.GetLength(0); i++)
             {
                 concateneAdresse(TBIP, i, out string sortieAdresse);
                 sortie += tableauNoms[i] + " : " + sortieAdresse + "\n";
