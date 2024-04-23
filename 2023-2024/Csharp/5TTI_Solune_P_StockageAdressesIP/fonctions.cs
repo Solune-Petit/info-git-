@@ -41,7 +41,7 @@ namespace _5TTI_Solune_P_StockageAdressesIP
             sortieAdresse += TBIP[ligne, 3];
         }
 
-        public bool ajouterAdresseIP(int placeLibre, int[,] TBIP, int[] adresse)
+        public bool ajouterAdresseIP(ref int placeLibre, ref int[,] TBIP, int[] adresse)
         {
             if (placeLibre < 20)
             {
@@ -49,7 +49,7 @@ namespace _5TTI_Solune_P_StockageAdressesIP
                 {
                     TBIP[placeLibre, i] = adresse[i];
                 }
-                placeLibre++;
+                placeLibre = placeLibre + 1;
                 return true;
             }
             else
@@ -58,7 +58,7 @@ namespace _5TTI_Solune_P_StockageAdressesIP
             }
         }
 
-        public bool ajouteNom(int nombreLigneNoms, string[] tableauNoms )
+        public bool ajouteNom(ref int nombreLigneNoms,ref string[] tableauNoms )
         {
             string UserNom;
             if (nombreLigneNoms < 21)
@@ -66,6 +66,7 @@ namespace _5TTI_Solune_P_StockageAdressesIP
                 Console.WriteLine("Quel est votre Nom ?");
                 UserNom = Console.ReadLine();
                 tableauNoms[nombreLigneNoms] = UserNom;
+                nombreLigneNoms++;
                 return true;
             }
             else

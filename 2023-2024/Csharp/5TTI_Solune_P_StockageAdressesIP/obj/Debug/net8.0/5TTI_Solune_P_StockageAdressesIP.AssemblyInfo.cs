@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("5TTI_Solune_P_StockageAdressesIP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcc4da5d0d617e930c3d49cdc1f9ddcb6f3b5459")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e82eb96f310b4d3c938c60baa5e8a8776b8fb3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("5TTI_Solune_P_StockageAdressesIP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("5TTI_Solune_P_StockageAdressesIP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -22,15 +22,15 @@ namespace _5TTI_Solune_P_StockageAdressesIP
             {
                 do
                 {
-                    Console.WriteLine("bienvenu sur mon recueil d'adresses IP \n Que voulez vous faire ?\n 1 - ajouter une IP\n 2 - afficher les Ip stoqués dans le tableau\n 3 - afficher une IP en particulier");
+                    Console.WriteLine("bienvenu sur mon recueil d'adresses IP \n Que voulez vous faire ?\n 1 - ajouter une IP\n 2 - afficher les Ip stoqués dans le tableau");
                     choix = Console.ReadLine();
                 } while (choix != "1" && choix != "2" && choix != "3");
 
                 if (choix == "1")
                 {
                     outils.lireAdresseIP(out int[] adresse);
-                    IPOK = outils.ajouterAdresseIP(placeLibre, TBIP, adresse);
-                    nomOK = outils.ajouteNom(nombreLigneNoms, tableauNoms);
+                    IPOK = outils.ajouterAdresseIP(ref placeLibre, ref TBIP, adresse);
+                    nomOK = outils.ajouteNom(ref nombreLigneNoms,ref tableauNoms);
                 }
                 else if (choix == "2")
                 {
