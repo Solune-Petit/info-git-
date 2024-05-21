@@ -39,3 +39,20 @@ function selectMyStores($pdo)
         die($message);
     }
 }
+
+function selectOneOfMyStores($pdo)
+{
+
+    try {
+        $query = "SELECT * from stores where idstores = :idstores";
+        $selectStores = $pdo->prepare($query);
+        $selectStores->execute([
+            "idstores" => $_GET["idstores"]
+        ]);
+        $stores = $selectStores->fetch();
+        return $stores;
+    } catch (PDOException $e) {
+        $message = $e->getMessage();
+        die($message);
+    }
+}

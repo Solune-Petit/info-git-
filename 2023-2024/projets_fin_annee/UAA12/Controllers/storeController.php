@@ -22,4 +22,9 @@ if ($uri == "/magasins"){
     $title = 'mes magasins';
     $template  = 'Views/stores/pageMagasins.php';   
     require_once('Views/base.php');
+}elseif ($uri == "/crudStore?idstores=" . $_GET["idstores"]){
+    $stores = selectOneOfMyStores($pdo);
+    $title = 'mes magasins';
+    $template  = 'Views/stores/crudStore.php';   
+    require_once('Views/base.php');
 }
