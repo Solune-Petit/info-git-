@@ -5,23 +5,13 @@
             <div class="flexible space-evenly">
                 <div>
                     <div class="mb-3">
-                        <label for="Nom" class="form-label">Nom</label>
+                        <label for="Nom" class="form-label">Nom du magasin</label>
                         <input type="text" placeholder="Nom" class="form-control" id="nom" name="nom" required <?php if (isset($stores)) : ?>value="<?= $stores->namestores ?>" <?php endif ?>>
                     </div>
                     <div class="mb-3">
                         <?php if (isset($stores->storeImage)) :?> <img src="../../Assets/images/<?= $stores->storeImage ?>" alt="photo du magasin"> <?php endif?>
-                        <label for="storeImage" class="form-label">Image</label>
-                        <input type="file" placeholder="storeImage" class="form-control" id="storeImage" name="storeImage" required <?php if (isset($stores)) : ?>value="<?= $stores->storeImage ?>" <?php endif ?>>
-                    </div>
-                </div>
-                <div>
-                    <div class="mb-3">
-                        <label for="storeWebsite" class="form-label">Login</label>
-                        <input type="text" placeholder="storeWebsite" class="form-control" id="storeWebsite" name="storeWebsite" required <?php if (isset($_SESSION['user'])) : ?>value="<?= $_SESSION['user']->loginUser ?>" <?php endif ?>>
-                    </div>
-                    <div class="mb-3">
-                        <label for="Password" class="form-label">Mot de passe</label>
-                        <input type="password" placeholder="Mot de passe" class="form-control" id="mot_de_passe" name="mot_de_passe" required <?php if (isset($_SESSION['user'])) : ?>value="<?= $_SESSION['user']->passWordUser ?>" <?php endif ?>>
+                        <label for="storeImage" class="form-label">Image du magasin</label>
+                        <input type="file" accept=".png,.jpg,.jpeg" placeholder="storeImage" class="form-control" id="storeImage" name="storeImage" required <?php if (isset($stores)) : ?>value="<?= $stores->storeImage ?>" <?php endif ?>>
                     </div>
                 </div>
                 <div>
@@ -40,15 +30,10 @@
                 </div>
             </div>
                 <div>
-                    <button name="btnEnvoi" <?php if (isset($_SESSION['user'])) : ?> class="btn btn-primary btn-big-custom"> modifier le profil<?php else : ?>class="btn btn-primary btn-big">Valider<?php endif ?></button>
+                    <button name="btnEnvoi" <?php if (isset($stores)) : ?> class="btn btn-primary btn-big-custom"> modifier le magasin<?php else : ?>class="btn btn-primary btn-big">Ajouter votre magasin<?php endif ?></button>
                 </div>
         </fieldset>
 
-        
-        <?php
-        if (isset($_SESSION['user'])) : ?> 
-        <a href="deleteProfile" class="btn btn-secondary" style="background-color: red;">SUPRIMER LE PROFIL</a>
-        <?php else : ?> <h4 class="text-danger">Déjà inscrit ?</h4>
-            <a href="connexion" class="btn btn-secondary">Cliquez ici !</a> <?php endif ?>
+        <?php if (isset($stores)):?> <button name="delStore" class="btn btn-primary btn-big-custom back-red"><a href="deleteStore">Suprimer le profil</a></button> <?php endif?>
     </form>
 </div>

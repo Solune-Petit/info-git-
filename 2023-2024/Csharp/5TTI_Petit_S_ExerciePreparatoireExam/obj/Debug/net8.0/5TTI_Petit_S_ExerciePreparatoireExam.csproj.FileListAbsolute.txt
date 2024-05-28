@@ -1,0 +1,15 @@
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Petit_S_ExerciePreparatoireExam\bin\Debug\net8.0\5TTI_Petit_S_ExerciePreparatoireExam.exe
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Petit_S_ExerciePreparatoireExam\bin\Debug\net8.0\5TTI_Petit_S_ExerciePreparatoireExam.deps.json
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Petit_S_ExerciePreparatoireExam\bin\Debug\net8.0\5TTI_Petit_S_ExerciePreparatoireExam.runtimeconfig.json
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Petit_S_ExerciePreparatoireExam\bin\Debug\net8.0\5TTI_Petit_S_ExerciePreparatoireExam.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Petit_S_ExerciePreparatoireExam\bin\Debug\net8.0\5TTI_Petit_S_ExerciePreparatoireExam.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Petit_S_ExerciePreparatoireExam\obj\Debug\net8.0\5TTI_Petit_S_ExerciePreparatoireExam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Petit_S_ExerciePreparatoireExam\obj\Debug\net8.0\5TTI_Petit_S_ExerciePreparatoireExam.AssemblyInfoInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Petit_S_ExerciePreparatoireExam\obj\Debug\net8.0\5TTI_Petit_S_ExerciePreparatoireExam.AssemblyInfo.cs
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Petit_S_ExerciePreparatoireExam\obj\Debug\net8.0\5TTI_Petit_S_ExerciePreparatoireExam.csproj.CoreCompileInputs.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Petit_S_ExerciePreparatoireExam\obj\Debug\net8.0\5TTI_Petit_S_ExerciePreparatoireExam.sourcelink.json
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Petit_S_ExerciePreparatoireExam\obj\Debug\net8.0\5TTI_Petit_S_ExerciePreparatoireExam.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Petit_S_ExerciePreparatoireExam\obj\Debug\net8.0\refint\5TTI_Petit_S_ExerciePreparatoireExam.dll
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Petit_S_ExerciePreparatoireExam\obj\Debug\net8.0\5TTI_Petit_S_ExerciePreparatoireExam.pdb
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Petit_S_ExerciePreparatoireExam\obj\Debug\net8.0\5TTI_Petit_S_ExerciePreparatoireExam.genruntimeconfig.cache
+C:\Users\petit\Desktop\ecole\2023-2024\info-git-\2023-2024\Csharp\5TTI_Petit_S_ExerciePreparatoireExam\obj\Debug\net8.0\ref\5TTI_Petit_S_ExerciePreparatoireExam.dll

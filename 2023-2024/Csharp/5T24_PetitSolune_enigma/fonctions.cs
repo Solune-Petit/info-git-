@@ -264,10 +264,10 @@ namespace _5T24_PetitSolune_enigma
 
         }
 
-        static void turnRotors(ref Rotor1[] rotor1, ref Rotor2[] rotor2, ref Rotor3[] rotor3)
+        static void turnRotors(ref Rotor1[] rotor1, ref Rotor2[] rotor2, ref Rotor3[] rotor3, ref int nbrpassRtr2)
         {
             string tempRotor1_0 = rotor1[0].lettreInput, tempRotor1_2 = rotor1[0].lettreOutput, tempRotor2_0 = rotor2[0].lettreInput, tempRotor2_2 = rotor2[0].lettreOutput, tempRotor3_0 = rotor3[0].lettreInput, tempRotor3_2 = rotor3[0].lettreOutput;
-            for (int i = 0;i < rotor1.GetLength(0) - 1;i++)
+            for (int i = 0; i < rotor1.GetLength(0) - 1; i++)
             {
                 rotor1[i].lettreInput = rotor1[i + 1].lettreInput;
                 rotor1[i].lettreOutput = rotor1[i + 1].lettreOutput;
@@ -276,7 +276,7 @@ namespace _5T24_PetitSolune_enigma
             rotor1[25].lettreInput = tempRotor1_0;
             rotor1[25].lettreOutput = tempRotor1_2;
 
-            if (rotor1[0].lettreOutput == "1")
+            if (rotor1[0].lettreInput == "1")
             {
                 for (int i = 0; i < rotor1.GetLength(0) - 1; i++)
                 {
@@ -288,7 +288,9 @@ namespace _5T24_PetitSolune_enigma
                 rotor2[25].lettreOutput = tempRotor2_2;
             }
 
-            if (rotor2[0].lettreOutput == "1")
+            nbrpassRtr2++;
+
+            if (rotor2[0].lettreInput == "1" && nbrpassRtr2 == 27)
             {
                 for (int i = 0;i < rotor2.GetLength(0) - 1; i++)
                 {
@@ -298,6 +300,8 @@ namespace _5T24_PetitSolune_enigma
 
                 rotor3[25].lettreInput = tempRotor3_0;
                 rotor3[25].lettreOutput = tempRotor3_2;
+
+                nbrpassRtr2 = 0;
             }
         }
 
@@ -369,16 +373,18 @@ namespace _5T24_PetitSolune_enigma
             string lettre;
             string cryptedLettre = "" ;
             cryptedMessage = "";
+            int nbrpassRtr2 = 0;
 
 
             for (int i = 0; i < message.Length; i++)
             {
                 if (message[i].ToString() != " ")
                 {
-                    turnRotors(ref rotor1, ref rotor2, ref rotor3);
-                    lettre = message[i].ToString();
-                    cryptTbconnexion(lettre, ref cryptedLettre, tbConnexion);
+                    turnRotors(ref rotor1, ref rotor2, ref rotor3, ref nbrpassRtr2);
+                    cryptedLettre = message[i].ToString();
+                    cryptTbconnexion2(ref cryptedLettre, tbConnexion);
                     cryptRotorPass(ref cryptedLettre, ref rotor1, ref rotor2, ref rotor3);
+                    cryptTbconnexion2(ref cryptedLettre, tbConnexion);
                     //test purpus
                     cryptedMessage += cryptedLettre;
                 }
@@ -387,20 +393,25 @@ namespace _5T24_PetitSolune_enigma
                     cryptedMessage += message[i];
                 }
             }
+            int posFinalRotor1 = int.Parse(rotor1[0].lettreInput) - 1;
+            int posFinalRotor2 = int.Parse(rotor2[0].lettreInput) - 1;
+            int posFinalRotor3 = int.Parse(rotor3[0].lettreInput) - 1;
+            cryptedMessage += "\n\n\n\n\n les dernières positions des rotors sont : \n\n- rotor 1 : " + posFinalRotor1 + "\n- rotor 2 : " + posFinalRotor2 + "\n- rotor 3 : " + posFinalRotor3;
         }
 
-        static void cryptTbconnexion(string lettre, ref string cryptedLettre, TBconnexion[] tbConnexion)
+        static void cryptTbconnexion2(ref string cryptedLettre, TBconnexion[] tbConnexion)
         {
             bool converted = false;
 
-            for (int i = 0;i < 13; i++)
+            for (int i = 0; i < 13; i++)
             {
-                if (lettre == tbConnexion[i].lettre1)
+                if (cryptedLettre == tbConnexion[i].lettre1)
                 {
                     cryptedLettre = tbConnexion[i].lettre2;
                     converted = true;
                     i = 15;
-                }else if (lettre == tbConnexion[i].lettre2)
+                }
+                else if (cryptedLettre == tbConnexion[i].lettre2)
                 {
                     cryptedLettre = tbConnexion[i].lettre1;
                     converted = true;
@@ -410,7 +421,7 @@ namespace _5T24_PetitSolune_enigma
 
             if (converted == false)
             {
-                cryptedLettre = lettre;
+                cryptedLettre = cryptedLettre;
             }
         }
 
@@ -547,111 +558,183 @@ namespace _5T24_PetitSolune_enigma
 
         static void convertNumbersToLetters(ref string cryptedLettre)
         {
-            if (cryptedLettre == "0")
+            if (cryptedLettre == "1")
             {
                 cryptedLettre = "a";
             }
-            else if (cryptedLettre == "1")
+            else if (cryptedLettre == "2")
             {
                 cryptedLettre = "b";
             }
-            else if (cryptedLettre == "2")
+            else if (cryptedLettre == "3")
             {
                 cryptedLettre = "c";
             }
-            else if (cryptedLettre == "3")
+            else if (cryptedLettre == "4")
             {
                 cryptedLettre = "d";
             }
-            else if (cryptedLettre == "4")
+            else if (cryptedLettre == "5")
             {
                 cryptedLettre = "e";
             }
-            else if (cryptedLettre == "5")
+            else if (cryptedLettre == "6")
             {
                 cryptedLettre = "f";
             }
-            else if (cryptedLettre == "6")
+            else if (cryptedLettre == "7")
             {
                 cryptedLettre = "g";
             }
-            else if (cryptedLettre == "7")
+            else if (cryptedLettre == "8")
             {
                 cryptedLettre = "h";
             }
-            else if (cryptedLettre == "8")
+            else if (cryptedLettre == "9")
             {
                 cryptedLettre = "i";
             }
-            else if (cryptedLettre == "9")
+            else if (cryptedLettre == "10")
             {
                 cryptedLettre = "j";
             }
-            else if (cryptedLettre == "10")
+            else if (cryptedLettre == "11")
             {
                 cryptedLettre = "k";
             }
-            else if (cryptedLettre == "11")
+            else if (cryptedLettre == "12")
             {
                 cryptedLettre = "l";
             }
-            else if (cryptedLettre == "12")
+            else if (cryptedLettre == "13")
             {
                 cryptedLettre = "m";
             }
-            else if (cryptedLettre == "13")
+            else if (cryptedLettre == "14")
             {
                 cryptedLettre = "n";
             }
-            else if (cryptedLettre == "14")
+            else if (cryptedLettre == "15")
             {
                 cryptedLettre = "o";
             }
-            else if (cryptedLettre == "15")
+            else if (cryptedLettre == "16")
             {
                 cryptedLettre = "p";
             }
-            else if (cryptedLettre == "16")
+            else if (cryptedLettre == "17")
             {
                 cryptedLettre = "q";
             }
-            else if (cryptedLettre == "17")
+            else if (cryptedLettre == "18")
             {
                 cryptedLettre = "r";
             }
-            else if (cryptedLettre == "18")
+            else if (cryptedLettre == "19")
             {
                 cryptedLettre = "s";
             }
-            else if (cryptedLettre == "19")
+            else if (cryptedLettre == "20")
             {
                 cryptedLettre = "t";
             }
-            else if (cryptedLettre == "20")
+            else if (cryptedLettre == "21")
             {
                 cryptedLettre = "u";
             }
-            else if (cryptedLettre == "21")
+            else if (cryptedLettre == "22")
             {
                 cryptedLettre = "v";
             }
-            else if (cryptedLettre == "22")
+            else if (cryptedLettre == "23")
             {
                 cryptedLettre = "w";
             }
-            else if (cryptedLettre == "23")
+            else if (cryptedLettre == "24")
             {
                 cryptedLettre = "x";
             }
-            else if (cryptedLettre == "24")
+            else if (cryptedLettre == "25")
             {
                 cryptedLettre = "y";
             }
-            else if (cryptedLettre == "25")
+            else if (cryptedLettre == "26")
             {
                 cryptedLettre = "z";
             }
 
+        }
+
+
+        /// <summary>
+        /// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// </summary>
+
+        public void decrypt(int[] posInitRotors, string message, TBconnexion[] tbConnexion, ref Rotor1[] rotor1, ref Rotor2[] rotor2, ref Rotor3[] rotor3, out string cryptedMessage)
+        {
+            string cryptedLettre = "";
+            cryptedMessage = "";
+            int nbrpassRtr2 = 0;
+
+
+            for (int i = message.Length - 1; i >= 0; i--)
+            {
+                if (message[i].ToString() != " ")
+                {
+                    cryptedLettre = message[i].ToString();
+                    cryptTbconnexion2(ref cryptedLettre, tbConnexion);
+                    cryptRotorPass(ref cryptedLettre, ref rotor1, ref rotor2, ref rotor3);
+                    cryptTbconnexion2(ref cryptedLettre, tbConnexion);
+                    cryptedMessage += cryptedLettre;
+                    inverseTurnRotors(ref rotor1, ref rotor2, ref rotor3, ref nbrpassRtr2);
+                }
+                else
+                {
+                    cryptedMessage += message[i];
+                }
+            }
+        }
+
+
+        static void inverseTurnRotors(ref Rotor1[] rotor1, ref Rotor2[] rotor2, ref Rotor3[] rotor3, ref int nbrpassRtr2)
+        {
+            string tempRotor1_0 = rotor1[25].lettreInput, tempRotor1_2 = rotor1[25].lettreOutput, tempRotor2_0 = rotor2[25].lettreInput, tempRotor2_2 = rotor2[25].lettreOutput, tempRotor3_0 = rotor3[25].lettreInput, tempRotor3_2 = rotor3[25].lettreOutput;
+            for (int i = 24; i >= 0; i--)
+            {
+                rotor1[i].lettreInput = rotor1[i + 1].lettreInput;
+                rotor1[i].lettreOutput = rotor1[i + 1].lettreOutput;
+            }
+
+            rotor1[25].lettreInput = tempRotor1_0;
+            rotor1[25].lettreOutput = tempRotor1_2;
+
+            if (rotor1[0].lettreInput == "1")
+            {
+                for (int i = 24; i >= 0; i--)
+                {
+                    rotor2[i].lettreInput = rotor2[i + 1].lettreInput;
+                    rotor2[i].lettreOutput = rotor2[i + 1].lettreOutput;
+                }
+
+                rotor2[25].lettreInput = tempRotor2_0;
+                rotor2[25].lettreOutput = tempRotor2_2;
+            }
+
+            nbrpassRtr2++;
+
+            if (rotor2[0].lettreInput == "1" && nbrpassRtr2 == 27)
+            {
+                for (int i = 24; i >= 0; i--)
+                {
+                    rotor3[i].lettreInput = rotor3[i + 1].lettreInput;
+                    rotor3[i].lettreOutput = rotor3[i + 1].lettreOutput;
+                }
+
+                rotor3[25].lettreInput = tempRotor3_0;
+                rotor3[25].lettreOutput = tempRotor3_2;
+
+                nbrpassRtr2 = 0;
+            }
         }
     }
 }
