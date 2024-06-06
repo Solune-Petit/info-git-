@@ -14,9 +14,13 @@
         <li class="menu"><a href="updateProfile">Profil</a></li>
         <li class="menu"><a href="deconnexion">Deconnexion</a></li>
 
-    <!-- si le mec est pas connecté -->
+     <!-- si le mec est pas connecté -->
     <?php else : ?>
         <li class="menu"><a href="inscriptionOrEditProfil">Inscription</a></li>
         <li class="menu"><a href="connexion">Connexion</a></li>
     <?php endif ?>
+
+    <?php if (isset($_SESSION['user']) && ($_SESSION['user']->role == 'admin')) : ?>
+            <li class="menu"><a href="adminPage">admin</a></li>
+        <?php endif?>
 </ul>

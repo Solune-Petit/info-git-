@@ -1,4 +1,8 @@
 ﻿using System.Drawing;
+using System;
+using NPOI.SS.UserModel;
+using NPOI.XSSF.UserModel;
+using System.IO;
 
 namespace _5T24_PetitSolune_enigma
 {
@@ -23,6 +27,11 @@ namespace _5T24_PetitSolune_enigma
             Rotor1[] rotor1 = new Rotor1[26];
             Rotor2[] rotor2 = new Rotor2[26];
             Rotor3[] rotor3 = new Rotor3[26];
+
+            IWorkbook workbook = new XSSFWorkbook();
+
+            // Créer un feuille de calcul dans le classeur
+            ISheet sheet = workbook.CreateSheet("Aide_Rotors");
 
 
 
@@ -79,7 +88,7 @@ namespace _5T24_PetitSolune_enigma
                 Console.WriteLine("quel est le message à encrypter ?");
                 message = Console.ReadLine();
                 Console.Clear();
-                mesOutils.crypt(posInitRotors, message, tbConnexion, ref rotor1, ref rotor2, ref rotor3, out cryptedMessage);
+                mesOutils.crypt(posInitRotors, message, tbConnexion, ref rotor1, ref rotor2, ref rotor3, out cryptedMessage, sheet);
                 Console.WriteLine(cryptedMessage);
                 Console.ReadLine();
             }

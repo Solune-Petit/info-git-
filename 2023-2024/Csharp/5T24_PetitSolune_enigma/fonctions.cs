@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NPOI.SS.UserModel;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -368,7 +369,7 @@ namespace _5T24_PetitSolune_enigma
             }
         }
 
-        public void crypt(int[] posInitRotors, string message, TBconnexion[] tbConnexion, ref Rotor1[] rotor1, ref Rotor2[] rotor2, ref Rotor3[] rotor3, out string cryptedMessage)
+        public void crypt(int[] posInitRotors, string message, TBconnexion[] tbConnexion, ref Rotor1[] rotor1, ref Rotor2[] rotor2, ref Rotor3[] rotor3, out string cryptedMessage, ISheet sheet)
         {
             string lettre;
             string cryptedLettre = "" ;
@@ -432,15 +433,11 @@ namespace _5T24_PetitSolune_enigma
             convertLettreToNumber(ref cryptedLettre);
 
             posNextRotor = int.Parse(rotor1[int.Parse(cryptedLettre) - 1].lettreOutput);
-            cryptedLettre = rotor2[posNextRotor].lettreInput;
-            posNextRotor = int.Parse(rotor2[int.Parse(cryptedLettre) - 1].lettreOutput);
-            cryptedLettre = rotor3[posNextRotor].lettreInput;
-            posNextRotor = int.Parse(rotor3[int.Parse(cryptedLettre) - 1].lettreOutput);
-            cryptedLettre = rotor3[posNextRotor].lettreInput;
-            posNextRotor = int.Parse(rotor3[int.Parse(cryptedLettre) - 1].lettreOutput);
-            cryptedLettre = rotor2[posNextRotor].lettreInput;
-            posNextRotor = int.Parse(rotor2[int.Parse(cryptedLettre) - 1].lettreOutput);
-            cryptedLettre = rotor1[posNextRotor].lettreInput;
+            posNextRotor = int.Parse(rotor2[posNextRotor - 1].lettreOutput);
+            posNextRotor = int.Parse(rotor3[posNextRotor - 1].lettreOutput);
+            posNextRotor = int.Parse(rotor3[posNextRotor - 1].lettreInput);
+            posNextRotor = int.Parse(rotor2[posNextRotor - 1].lettreInput);
+            cryptedLettre = rotor1[posNextRotor - 1].lettreInput;
 
             convertNumbersToLetters(ref cryptedLettre);
 
@@ -670,7 +667,7 @@ namespace _5T24_PetitSolune_enigma
         /// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         /// </summary>
 
-        public void decrypt(int[] posInitRotors, string message, TBconnexion[] tbConnexion, ref Rotor1[] rotor1, ref Rotor2[] rotor2, ref Rotor3[] rotor3, out string cryptedMessage)
+        public void decrypt(int[] posInitRotors, string message, TBconnexion[] tbConnexion, ref Rotor1[] rotor1, ref Rotor2[] rotor2, ref Rotor3[] rotor3, out string cryptedMessage, ISheet sheet)
         {
             string cryptedLettre = "";
             cryptedMessage = "";
@@ -685,8 +682,11 @@ namespace _5T24_PetitSolune_enigma
                     cryptTbconnexion2(ref cryptedLettre, tbConnexion);
                     cryptRotorPass(ref cryptedLettre, ref rotor1, ref rotor2, ref rotor3);
                     cryptTbconnexion2(ref cryptedLettre, tbConnexion);
-                    cryptedMessage += cryptedLettre;
+                    cryptedMessage = cryptedLettre + cryptedMessage;
                     inverseTurnRotors(ref rotor1, ref rotor2, ref rotor3, ref nbrpassRtr2);
+                    FillSheetWithMatrix(sheet, rotor1, 0);
+                    FillSheetWithMatrix(sheet, rotor2, 10);
+                    FillSheetWithMatrix(sheet, rotor3, 20);
                 }
                 else
                 {
@@ -734,6 +734,38 @@ namespace _5T24_PetitSolune_enigma
                 rotor3[25].lettreOutput = tempRotor3_2;
 
                 nbrpassRtr2 = 0;
+            }
+        }
+
+        static void decryptRotorPass(ref string cryptedLettre, ref Rotor1[] rotor1, ref Rotor2[] rotor2, ref Rotor3[] rotor3)
+        {
+            //ATTENTION le passage est inversé. il ne faut pas passer par les entrées mais les sorties
+
+            int posNextRotor;
+
+            convertLettreToNumber(ref cryptedLettre);
+
+            posNextRotor = int.Parse(rotor1[int.Parse(cryptedLettre) - 1].lettreInput);
+            posNextRotor = int.Parse(rotor2[posNextRotor - 1].lettreInput);
+            posNextRotor = int.Parse(rotor3[posNextRotor - 1].lettreInput);
+            posNextRotor = int.Parse(rotor3[posNextRotor - 1].lettreOutput);
+            posNextRotor = int.Parse(rotor2[posNextRotor - 1].lettreOutput);
+            cryptedLettre = rotor1[posNextRotor - 1].lettreInput;
+
+            convertNumbersToLetters(ref cryptedLettre);
+        }
+
+
+        static void FillSheetWithMatrix(ISheet sheet, Rotor1[] rotor1, int columnOffset)
+        {
+            for (int i = 0; i < 2; i++)
+            {
+                IRow row = sheet.CreateRow(i);
+                for (int j = 0; j < 26; j++)
+                {
+                    ICell cell = row.CreateCell(j + columnOffset);
+                    cell.SetCellValue(matrix[i, j]);
+                }
             }
         }
     }
