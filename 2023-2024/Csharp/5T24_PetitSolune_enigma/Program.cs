@@ -134,7 +134,7 @@ namespace _5T24_PetitSolune_enigma
                 Console.WriteLine("quel est le message à décrypter ???");
                 message = Console.ReadLine();
                 Console.Clear();
-                mesOutils.decrypt(posInitRotors, message, tbConnexion, ref rotor1, ref rotor2, ref rotor3, out cryptedMessage);
+                mesOutils.decrypt(posInitRotors, message, tbConnexion, ref rotor1, ref rotor2, ref rotor3, out cryptedMessage, sheet);
                 Console.WriteLine(cryptedMessage);
                 Console.ReadLine();
             }

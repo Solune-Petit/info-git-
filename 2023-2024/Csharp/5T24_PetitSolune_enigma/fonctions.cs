@@ -386,7 +386,6 @@ namespace _5T24_PetitSolune_enigma
                     cryptTbconnexion2(ref cryptedLettre, tbConnexion);
                     cryptRotorPass(ref cryptedLettre, ref rotor1, ref rotor2, ref rotor3);
                     cryptTbconnexion2(ref cryptedLettre, tbConnexion);
-                    //test purpus
                     cryptedMessage += cryptedLettre;
                 }
                 else
@@ -680,13 +679,10 @@ namespace _5T24_PetitSolune_enigma
                 {
                     cryptedLettre = message[i].ToString();
                     cryptTbconnexion2(ref cryptedLettre, tbConnexion);
-                    cryptRotorPass(ref cryptedLettre, ref rotor1, ref rotor2, ref rotor3);
+                    decryptRotorPass(ref cryptedLettre, ref rotor1, ref rotor2, ref rotor3);
                     cryptTbconnexion2(ref cryptedLettre, tbConnexion);
                     cryptedMessage = cryptedLettre + cryptedMessage;
                     inverseTurnRotors(ref rotor1, ref rotor2, ref rotor3, ref nbrpassRtr2);
-                    FillSheetWithMatrix(sheet, rotor1, 0);
-                    FillSheetWithMatrix(sheet, rotor2, 10);
-                    FillSheetWithMatrix(sheet, rotor3, 20);
                 }
                 else
                 {
@@ -753,20 +749,6 @@ namespace _5T24_PetitSolune_enigma
             cryptedLettre = rotor1[posNextRotor - 1].lettreInput;
 
             convertNumbersToLetters(ref cryptedLettre);
-        }
-
-
-        static void FillSheetWithMatrix(ISheet sheet, Rotor1[] rotor1, int columnOffset)
-        {
-            for (int i = 0; i < 2; i++)
-            {
-                IRow row = sheet.CreateRow(i);
-                for (int j = 0; j < 26; j++)
-                {
-                    ICell cell = row.CreateCell(j + columnOffset);
-                    cell.SetCellValue(matrix[i, j]);
-                }
-            }
         }
     }
 }
